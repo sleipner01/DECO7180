@@ -1,0 +1,20 @@
+{
+	"name": "Vikings",
+	"host": "deco7180teams-vikings.zones.eait.uq.edu.au",
+	"protocol": "sftp",
+	"port": 22,
+	"username": "Your UQ Username",
+	"context": "./",
+	"remotePath": "/var/www/htdocs/",
+	"uploadOnSave": false,
+	"useTempFile": false,
+	"openSsh": false,
+	"ignore": [
+		".vscode",
+		".git",
+		".DS_Store",
+		".gitattributes",
+		".git/**",
+		".gitignore"
+	]
+}
