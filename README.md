@@ -26,6 +26,8 @@ The project is run at [deco7180teams-vikings.uqcloud.net](https://deco7180teams-
    - The `example.sftp.json` file contains the configuration for the SFTP connection to the server.
    - The `sftp.json` file is used by Visual Studio Code to connect to the server, and is not tracked by Git.
 3. Insert your username in the `sftp.json` file (Example: `s9999999`)
+4. Insert an API key for Mapbox in `script.js`.
+   - You can get a free API key from [Mapbox](https://www.mapbox.com/).
 
 # Accessing the server
 
