@@ -1,3 +1,6 @@
 .DS_Store
 .vscode/sftp.json
 .env
+data/*
+node_modules
+client/js/*

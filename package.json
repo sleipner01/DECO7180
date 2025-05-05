@@ -1,0 +1,35 @@
+{
+	"name": "deco7180",
+	"version": "1.0.0",
+	"description": "This is a project in the course DECO7180 at the University of Queensland. The project is a heatmap that visualises traffic infringements in Australia.",
+	"main": "script.js",
+	"scripts": {
+		"build": "webpack",
+		"watch": "webpack --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sleipner01/DECO7180.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/sleipner01/DECO7180/issues"
+	},
+	"homepage": "https://github.com/sleipner01/DECO7180#readme",
+	"devDependencies": {
+		"@types/mapbox-gl": "^3.4.1",
+		"@types/papaparse": "^5.3.15",
+		"dotenv-webpack": "^8.1.0",
+		"ts-loader": "^9.5.2",
+		"typescript": "^5.8.3",
+		"webpack": "^5.99.7",
+		"webpack-cli": "^6.0.1"
+	},
+	"dependencies": {
+		"mapbox-gl": "^3.11.1",
+		"papaparse": "^5.5.2"
+	}
+}

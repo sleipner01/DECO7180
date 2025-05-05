@@ -1,4 +1,29 @@
-const mapboxToken = "INSERT TOKEN";
+export interface HeatmapDataPoint {
+	latitude: string;
+	longitude: string;
+	intensity: string;
+}
+
+export interface GeoJSONFeature {
+	type: "Feature";
+	properties: {
+		intensity: number;
+	};
+	geometry: {
+		type: "Point";
+		coordinates: [number, number];
+	};
+}
+
+export interface GeoJSONFeatureCollection {
+	type: "FeatureCollection";
+	features: GeoJSONFeature[];
+}
+
+import mapboxgl from "mapbox-gl";
+import Papa from "papaparse";
+
+const mapboxToken = process.env.MAPBOX_TOKEN || "";
 
 // Initialize the map when the page loads
 document.addEventListener("DOMContentLoaded", () => {
@@ -30,13 +55,13 @@ document.addEventListener("DOMContentLoaded", () => {
 -16.9186,145.7781,25`;
 
 	// Function to parse CSV data and create a GeoJSON feature collection
-	function parseCSVToGeoJSON(csvData) {
-		const results = Papa.parse(csvData, {
+	function parseCSVToGeoJSON(csvData: string): GeoJSONFeatureCollection {
+		const results = Papa.parse<HeatmapDataPoint>(csvData, {
 			header: true,
 			skipEmptyLines: true,
 		});
 
-		const features = results.data.map((row) => {
+		const features = results.data.map((row): GeoJSONFeature => {
 			const lat = parseFloat(row.latitude);
 			const lng = parseFloat(row.longitude);
 			const intensity = parseFloat(row.intensity) || 1;
@@ -48,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				},
 				geometry: {
 					type: "Point",
-					coordinates: [lng, lat],
+					coordinates: [lng, lat] as [number, number],
 				},
 			};
 		});
@@ -60,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	// Function to add heatmap layer
-	function addHeatmapLayer(geojsonData) {
+	function addHeatmapLayer(geojsonData: GeoJSONFeatureCollection): void {
 		// Remove existing heatmap layer if it exists
 		if (map.getLayer("heatmap-layer")) {
 			map.removeLayer("heatmap-layer");
@@ -124,23 +149,32 @@ document.addEventListener("DOMContentLoaded", () => {
 	// Wait for the map to load
 	map.on("load", () => {
 		// Load sample data button
-		document.getElementById("load-sample").addEventListener("click", () => {
-			const geojsonData = parseCSVToGeoJSON(sampleData);
-			addHeatmapLayer(geojsonData);
-		});
+		const loadSampleButton = document.getElementById("load-sample");
+		if (loadSampleButton) {
+			loadSampleButton.addEventListener("click", () => {
+				const geojsonData = parseCSVToGeoJSON(sampleData);
+				addHeatmapLayer(geojsonData);
+			});
+		}
 
 		// CSV file input handler
-		document.getElementById("csv-file").addEventListener("change", (event) => {
-			const file = event.target.files[0];
-			if (file) {
-				const reader = new FileReader();
-				reader.onload = function (e) {
-					const csvData = e.target.result;
-					const geojsonData = parseCSVToGeoJSON(csvData);
-					addHeatmapLayer(geojsonData);
-				};
-				reader.readAsText(file);
-			}
-		});
+		const csvFileInput = document.getElementById(
+			"csv-file"
+		) as HTMLInputElement;
+		if (csvFileInput) {
+			csvFileInput.addEventListener("change", (event) => {
+				const target = event.target as HTMLInputElement;
+				const file = target.files?.[0];
+				if (file) {
+					const reader = new FileReader();
+					reader.onload = function (e) {
+						const csvData = e.target?.result as string;
+						const geojsonData = parseCSVToGeoJSON(csvData);
+						addHeatmapLayer(geojsonData);
+					};
+					reader.readAsText(file);
+				}
+			});
+		}
 	});
 });
