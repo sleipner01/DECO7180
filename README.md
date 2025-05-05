@@ -19,19 +19,154 @@ The project is run at [deco7180teams-vikings.uqcloud.net](https://deco7180teams-
 # 📦 Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone
+   git clone https://github.com/sleipner01/DECO7180.git
+   cd DECO7180
    ```
-2. Copy and rename the `example.sftp.json` file to `sftp.json` in the `.vscode` folder.
-   - The `example.sftp.json` file contains the configuration for the SFTP connection to the server.
-   - The `sftp.json` file is used by Visual Studio Code to connect to the server, and is not tracked by Git.
-3. Insert your username in the `sftp.json` file (Example: `s9999999`)
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+
+   For development:
+
+   ```bash
+   cp .env.development.example .env.development
+   ```
+
+   For production:
+
+   ```bash
+   cp .env.production.example .env.production
+   ```
+
+4. Update the environment files with your Mapbox API key:
+
+   ```
+   MAPBOX_TOKEN=your_mapbox_api_key_here
+   DEBUG=true  # or false for production
+   ENV=development  # or production
+   ```
+
+   You can get a free API key from [Mapbox](https://www.mapbox.com/).
+
+5. Copy and rename the `example.sftp.json` file to `sftp.json` in the `.vscode` folder:
+   ```bash
+   cp .vscode/example.sftp.json .vscode/sftp.json
+   ```
+   - Update your UQ username in the `sftp.json` file (Example: `s9999999`)
+
+# 🛠️ Development Workflow
+
+## Running the Project Locally
+
+The project has different build commands depending on your environment:
+
+1. Development build (includes source maps and debugging):
+
+   ```bash
+   npm run build:dev
+   ```
+
+   This will compile the TypeScript files using the `.env.development` configuration.
+
+2. Production build (optimized for deployment):
+
+   ```bash
+   npm run build
+   ```
+
+   This will compile the TypeScript files using the `.env.production` configuration.
+
+3. For active development with automatic rebuilding when files change:
+
+   ```bash
+   npm run watch
+   ```
+
+   This uses the development environment and will automatically rebuild when files change.
+
+4. Open `client/index.html` in your browser to view the project.
+
+## Environment Management
+
+The project uses separate environment files for development and production:
+
+- `.env.development` - Contains development-specific settings
+- `.env.production` - Contains production-specific settings
+
+Both files support the following variables:
+
+```
+MAPBOX_TOKEN=your_mapbox_token_here
+DEBUG=true|false
+ENV=development|production
+```
+
+## Deploying to the Server
+
+After making changes and building the project:
+
+### Using VS Code SFTP extension
+
+1. Build the project with the production environment:
+
+   ```bash
+   npm run build
+   ```
+
+2. Make sure you've configured your `sftp.json` file as described in the Installation section.
+
+3. Right-click on the `client` folder in VS Code.
+
+4. Select "SFTP: Upload" to upload all files to the server.
+   - This will automatically exclude the TypeScript source files as configured in `sftp.json`.
+
+### Manual SFTP Upload
+
+1. Build the project with the production environment:
+
+   ```bash
+   npm run build
+   ```
+
+2. Use an SFTP client (like FileZilla) to upload the contents of the `client` directory to the server:
+   - Host: `deco7180teams-vikings.uqcloud.net`
+   - Username: Your UQ username
+   - Password: Your UQ password
+   - Remote directory: `/var/www/htdocs/`
+
+# Accessing the server
+
+**SFTP**
+
+- The server is running on `deco7180teams-vikings.uqcloud.net`.
+- You can access the server using SFTP with the following credentials:
+  - Host: `deco7180teams-vikings.uqcloud.net`
+  - Username: `s9999999` (replace with your own username)
+  - Password: `uqpassword` (replace with your own password)
+
+**SSH**
+
+- You can access the server using SSH via the command line with the following command:
+  ```bash
+  ssh s9999999@deco7180teams-vikings.uqcloud.net
+  ```
+- You will be prompted for your password.
 
 # 🏗️ Tech Stack
 
-| Technology | Description                                                                                     |
-| ---------- | ----------------------------------------------------------------------------------------------- |
-| HTML       |                                                                                                 |
-| CSS        |                                                                                                 |
-| JavaScript |                                                                                                 |
-| MapBox     | A JavaScript library for interactive maps. [See more information here.](https://www.mapbox.com) |
+| Technology     | Description                                                                                     |
+| -------------- | ----------------------------------------------------------------------------------------------- |
+| HTML           | Structure of the web application                                                                |
+| CSS            | Styling for the web application                                                                 |
+| TypeScript     | Strongly typed programming language that builds on JavaScript                                   |
+| Webpack        | Module bundler to compile TypeScript and manage dependencies                                    |
+| MapBox GL JS   | A JavaScript library for interactive maps. [See more information here.](https://www.mapbox.com) |
+| PapaParse      | CSV parsing library for handling data files                                                     |
+| dotenv-webpack | Plugin to use environment variables in the web application                                      |

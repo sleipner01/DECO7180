@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vikings Heatmap</title>
+		<link
+			href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Australia Heatmap Visualization</h1>
+			<div id="map"></div>
+			<div class="controls">
+				<input type="file" id="csv-file" accept=".csv" />
+				<button id="load-sample">Load Sample Data</button>
+			</div>
+			<div class="legend">
+				<h3>Intensity</h3>
+				<div class="gradient"></div>
+				<div class="labels">
+					<span>Low</span>
+					<span>High</span>
+				</div>
+			</div>
+		</div>
+
+		<script src="./js/script.js" type="module"></script>
+	</body>
+</html>

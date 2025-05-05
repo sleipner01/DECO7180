@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"strict": true,
+		"outDir": "client/js",
+		"sourceMap": true,
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"skipLibCheck": true
+	},
+	"include": ["./client/ts/**/*.ts"],
+	"exclude": ["node_modules"]
+}
