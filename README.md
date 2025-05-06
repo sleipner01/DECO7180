@@ -108,7 +108,7 @@ DEBUG=true|false
 ENV=development|production
 ```
 
-## Deploying to the Server
+## Deploying to the Server 🚀🚀
 
 After making changes and building the project:
 
@@ -141,7 +141,7 @@ After making changes and building the project:
    - Password: Your UQ password
    - Remote directory: `/var/www/htdocs/`
 
-# Accessing the server
+# ⚙️ Accessing the server
 
 **SFTP**
 
@@ -170,3 +170,64 @@ After making changes and building the project:
 | MapBox GL JS   | A JavaScript library for interactive maps. [See more information here.](https://www.mapbox.com) |
 | PapaParse      | CSV parsing library for handling data files                                                     |
 | dotenv-webpack | Plugin to use environment variables in the web application                                      |
+
+# 🌳 Project Structure
+
+```
+.
+├── .env.development             # Development environment variables
+├── .env.example                 # Example environment variables file
+├── .env.production              # Production environment variables
+├── .gitignore                   # Git ignore file
+├── package.json                 # NPM package configuration
+├── README.md                    # Project documentation (this file)
+├── tsconfig.json                # TypeScript configuration
+├── webpack.config.js            # Webpack build configuration
+├── .vscode/                     # VS Code configuration
+│   ├── example.sftp.json        # Template for SFTP configuration
+│   └── sftp.json                # Actual SFTP configuration (gitignored)
+└── client/                      # Client-side code (deployed to server)
+    ├── index.html               # Main HTML page
+    ├── css/                     # CSS stylesheets
+    │   └── styles.css           # Main stylesheet
+    ├── data/                    # Data files
+    │   ├── data.csv             # CSV data for heatmap (if used)
+    │   └── data.json            # JSON data for heatmap
+    ├── js/                      # Compiled JavaScript (output of build)
+    │   ├── script.js            # Compiled main script
+    │   └── script.js.LICENSE.txt # License information for dependencies
+    ├── media/                   # Media assets
+    │   └── vikings.jpeg         # Team logo/image
+    └── ts/                      # TypeScript source code
+        ├── env.ts               # Environment variables access
+        ├── script.ts            # Main application entry point
+        ├── types.ts             # Type definitions
+        ├── services/            # Service modules
+        │   ├── dataService.ts   # Data fetching and processing
+        │   └── mapService.ts    # Map initialization and management
+        └── utils/               # Utility modules
+            ├── accessibility.ts # Accessibility helpers
+            ├── cache.ts         # Data caching implementation
+            └── convert.ts       # Data conversion utilities
+```
+
+## Key Components 🗝️
+
+- **Entry Point**: [`client/ts/script.ts`](client/ts/script.ts) - Main application that initializes all components
+- **Map Handling**: [`client/ts/services/mapService.ts`](client/ts/services/mapService.ts) - Manages the MapBox integration
+- **Data Processing**: [`client/ts/services/dataService.ts`](client/ts/services/dataService.ts) - Handles data loading and processing
+- **Caching**: [`client/ts/utils/cache.ts`](client/ts/utils/cache.ts) - Implements localStorage caching for performance
+- **Type Definitions**: [`client/ts/types.ts`](client/ts/types.ts) - Contains TypeScript interfaces for the project
+- **Environment Config**: [`client/ts/env.ts`](client/ts/env.ts) - Makes environment variables available to the application
+- **Build System**: [`webpack.config.js`](webpack.config.js) - Configures how the TypeScript code is compiled
+
+## Build Process 🖨️
+
+1. TypeScript files in `client/ts/` are processed through TypeScript compiler
+2. Webpack bundles the compiled JavaScript and dependencies
+3. The resulting bundle is output to `client/js/script.js`
+4. Environment variables from `.env.development` or `.env.production` are injected during build
+
+## Deployment Structure 🪜
+
+When deployed, only the `client` directory contents are uploaded to the server at `/var/www/htdocs/`.
