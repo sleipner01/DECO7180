@@ -3,7 +3,29 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vikings Heatmap</title>
+		<meta
+			name="description"
+			content="Interactive heatmap visualization of traffic infringements across Australia"
+		/>
+		<meta
+			name="keywords"
+			content="heatmap, Australia, traffic, infringements, data visualization"
+		/>
+		<meta name="author" content="Vikings Team - DECO7180" />
+
+		<!-- Open Graph / Social Media Meta Tags -->
+		<meta property="og:title" content="Traffic Infringements Heatmap" />
+		<meta
+			property="og:description"
+			content="Interactive visualization of traffic infringements data across Australia"
+		/>
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content="https://deco7180teams-vikings.uqcloud.net/"
+		/>
+
+		<title>Traffic Infringements Heatmap | Vikings - DECO7180</title>
 		<link
 			href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
 			rel="stylesheet"
@@ -11,22 +33,70 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<div class="container">
-			<h1>Australia Heatmap Visualization</h1>
-			<div id="map"></div>
-			<div class="controls">
-				<input type="file" id="csv-file" accept=".csv" />
-				<button id="load-sample">Load Sample Data</button>
-			</div>
-			<div class="legend">
+		<main>
+			<!-- Skip link for keyboard users -->
+			<a href="#map-controls" id="skip-link" class="skip-link"
+				>Skip to map controls</a
+			>
+
+			<section class="map-info" aria-label="About this visualization">
+				<button aria-expanded="false" id="info-toggle" class="info-button">
+					<span class="sr-only">Information about this map</span>
+					<span aria-hidden="true">ⓘ</span>
+				</button>
+				<div id="info-panel" class="info-panel" hidden>
+					<h2>About This Map</h2>
+					<p>
+						This heatmap visualizes traffic infringements across Australia.
+						Areas with higher intensity (red) indicate more infringements, while
+						areas with lower intensity (blue) indicate fewer infringements.
+					</p>
+					<p>Data collected from 2013-2022.</p>
+					<button id="close-info" class="close-button">Close</button>
+				</div>
+			</section>
+
+			<aside class="legend" aria-labelledby="legend-title">
+				<h2 id="legend-title" class="sr-only">Map Legend</h2>
 				<h3>Intensity</h3>
-				<div class="gradient"></div>
+				<div
+					class="gradient"
+					aria-label="Intensity gradient from low (blue) to high (red)"
+				></div>
 				<div class="labels">
 					<span>Low</span>
 					<span>High</span>
 				</div>
+			</aside>
+
+			<div
+				id="loading-overlay"
+				class="loading-overlay"
+				role="alert"
+				aria-busy="true"
+				aria-live="assertive"
+			>
+				<div class="loading-spinner" aria-hidden="true"></div>
+				<p class="sr-only">Loading map data, please wait</p>
 			</div>
-		</div>
+
+			<div
+				id="error-message"
+				class="error-message"
+				role="alert"
+				aria-live="assertive"
+			></div>
+		</main>
+
+		<div
+			id="map"
+			role="application"
+			aria-label="Interactive heatmap of traffic infringements across Australia"
+		></div>
+
+		<section id="map-controls" class="map-controls" tabindex="-1">
+			<!-- TODO: Any map controls will go here -->
+		</section>
 
 		<script src="./js/script.js" type="module"></script>
 	</body>
