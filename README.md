@@ -171,6 +171,25 @@ After making changes and building the project:
 | PapaParse      | CSV parsing library for handling data files                                                     |
 | dotenv-webpack | Plugin to use environment variables in the web application                                      |
 
+# 🧪 Data Processing
+
+The project includes a dedicated data processing toolkit called `data-alchemy` that transforms raw traffic infringement data into formats suitable for the heatmap visualization:
+
+- Located in the `data-alchemy` directory
+- Uses Python, Pandas, and Jupyter notebooks for data processing
+- Geocodes locations, normalizes intensities, and formats data for the heatmap
+- Automatically copies processed files to the client/data directory
+
+To use the data processing toolkit:
+
+1. Set up the Python environment:
+   ```bash
+   cd DataAlchemy
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
 # 🌳 Project Structure
 
 ```
@@ -186,29 +205,40 @@ After making changes and building the project:
 ├── .vscode/                     # VS Code configuration
 │   ├── example.sftp.json        # Template for SFTP configuration
 │   └── sftp.json                # Actual SFTP configuration (gitignored)
-└── client/                      # Client-side code (deployed to server)
-    ├── index.html               # Main HTML page
-    ├── css/                     # CSS stylesheets
-    │   └── styles.css           # Main stylesheet
-    ├── data/                    # Data files
-    │   ├── data.csv             # CSV data for heatmap (if used)
-    │   └── data.json            # JSON data for heatmap
-    ├── js/                      # Compiled JavaScript (output of build)
-    │   ├── script.js            # Compiled main script
-    │   └── script.js.LICENSE.txt # License information for dependencies
-    ├── media/                   # Media assets
-    │   └── vikings.jpeg         # Team logo/image
-    └── ts/                      # TypeScript source code
-        ├── env.ts               # Environment variables access
-        ├── script.ts            # Main application entry point
-        ├── types.ts             # Type definitions
-        ├── services/            # Service modules
-        │   ├── dataService.ts   # Data fetching and processing
-        │   └── mapService.ts    # Map initialization and management
-        └── utils/               # Utility modules
-            ├── accessibility.ts # Accessibility helpers
-            ├── cache.ts         # Data caching implementation
-            └── convert.ts       # Data conversion utilities
+│── client/                      # Client-side code (deployed to server)
+│   ├── index.html               # Main HTML page
+│   ├── css/                     # CSS stylesheets
+│   │   └── styles.css           # Main stylesheet
+│   ├── data/                    # Data files
+│   │   ├── data.csv             # CSV data for heatmap (if used)
+│   │   └── data.json            # JSON data for heatmap
+│   ├── js/                      # Compiled JavaScript (output of build)
+│   │   ├── script.js            # Compiled main script
+│   │   └── script.js.LICENSE.txt # License information for dependencies
+│   ├── media/                   # Media assets
+│   │   └── vikings.jpeg         # Team logo/image
+│   └── ts/                      # TypeScript source code
+│       ├── env.ts               # Environment variables access
+│       ├── script.ts            # Main application entry point
+│       ├── types.ts             # Type definitions
+│       ├── services/            # Service modules
+│       │   ├── dataService.ts   # Data fetching and processing
+│       │   └── mapService.ts    # Map initialization and management
+│       └── utils/               # Utility modules
+│           ├── accessibility.ts # Accessibility helpers
+│           ├── cache.ts         # Data caching implementation
+│           └── convert.ts       # Data conversion utilities
+└── data-alchemy/
+   ├── notebooks/                # Jupyter notebooks for exploration and development
+   │   └── infringement_data_processing.ipynb
+   ├── scripts/                  # Python scripts for automation
+   │   └── process_infringements.py
+   ├── output/                   # Generated data files
+   │   ├── infringements.json
+   │   ├── infringements.csv
+   │   └── preview_map.html
+   ├── venv/                     # Virtual environment (not tracked in git)
+   └── requirements.txt          # Project dependencies
 ```
 
 ## Key Components 🗝️
