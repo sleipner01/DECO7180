@@ -5,10 +5,409 @@
       "type": "Feature",
       "properties": {
         "intensity": 100.0,
+        "location": "NORTH BRISBANE",
+        "count": 7541,
+        "data_type": "infringement",
+        "district": "NORTH BRISBANE",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Very High",
+        "frequency": "Very High",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0543,
+          -27.4075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 62.29135053110774,
+        "location": "SOUTH BRISBANE",
+        "count": 5553,
+        "data_type": "infringement",
+        "district": "SOUTH BRISBANE",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "High",
+        "frequency": "Very High",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0167,
+          -27.4809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 61.665402124430955,
+        "location": "GOLD COAST",
+        "count": 5520,
+        "data_type": "infringement",
+        "district": "GOLD COAST",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "High",
+        "frequency": "Very High",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4,
+          -28.0167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 51.11911987860395,
+        "location": "CAPRICORNIA",
+        "count": 4964,
+        "data_type": "infringement",
+        "district": "CAPRICORNIA",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Medium",
+        "frequency": "High",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.51,
+          -23.3791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 49.75341426403642,
+        "location": "SUNSHINE COAST",
+        "count": 4892,
+        "data_type": "infringement",
+        "district": "SUNSHINE COAST",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Medium",
+        "frequency": "High",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0667,
+          -26.65
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 47.401365705614566,
+        "location": "FAR NORTH",
+        "count": 4768,
+        "data_type": "infringement",
+        "district": "FAR NORTH",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Medium",
+        "frequency": "High",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Evening"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7781,
+          -16.9186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 46.908194233687404,
+        "location": "LOGAN",
+        "count": 4742,
+        "data_type": "infringement",
+        "district": "LOGAN",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Medium",
+        "frequency": "High",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1086,
+          -27.6392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 45.99772382397572,
+        "location": "DARLING DOWNS",
+        "count": 4694,
+        "data_type": "infringement",
+        "district": "DARLING DOWNS",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Medium",
+        "frequency": "High",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.9507,
+          -27.5598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 45.144157814871015,
+        "location": "TOWNSVILLE",
+        "count": 4649,
+        "data_type": "infringement",
+        "district": "TOWNSVILLE",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Medium",
+        "frequency": "High",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.8169,
+          -19.259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 41.80576631259484,
+        "location": "WIDE BAY BURNETT",
+        "count": 4473,
+        "data_type": "infringement",
+        "district": "WIDE BAY BURNETT",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Medium",
+        "frequency": "High",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.3423,
+          -25.2882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 38.90364188163885,
+        "location": "IPSWICH",
+        "count": 4320,
+        "data_type": "infringement",
+        "district": "IPSWICH",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Low",
+        "frequency": "High",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.761,
+          -27.6161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 35.66009104704097,
+        "location": "MACKAY",
+        "count": 4149,
+        "data_type": "infringement",
+        "district": "MACKAY",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Low",
+        "frequency": "High",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1868,
+          -21.1412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 32.51138088012139,
+        "location": "MORETON",
+        "count": 3983,
+        "data_type": "infringement",
+        "district": "MORETON",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Low",
+        "frequency": "High",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.1187,
+          -27.236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 24.96206373292868,
+        "location": "SOUTH WEST",
+        "count": 3585,
+        "data_type": "infringement",
+        "district": "SOUTH WEST",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Low",
+        "frequency": "High",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.95,
+          -27.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.0,
+        "location": "MOUNT ISA",
+        "count": 2269,
+        "data_type": "infringement",
+        "district": "MOUNT ISA",
+        "region": "Queensland",
+        "visits": null,
+        "hours": null,
+        "checked": null,
+        "intensity_category": "Very Low",
+        "frequency": "Medium",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4927,
+          -20.7256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 100.0,
         "location": "Monaro Highway",
         "visits": 3774,
         "hours": 5040.99,
-        "checked": 4421729
+        "checked": 4421729,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 3774,
+        "intensity_category": "Very High",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -25,7 +424,16 @@
         "location": "Athllon Drive",
         "visits": 2377,
         "hours": 3184.7000000000003,
-        "checked": 1880615
+        "checked": 1880615,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 2377,
+        "intensity_category": "High",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -42,7 +450,16 @@
         "location": "Gungahlin Drive",
         "visits": 1936,
         "hours": 2512.57,
-        "checked": 2196939
+        "checked": 2196939,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1936,
+        "intensity_category": "Medium",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +476,16 @@
         "location": "Belconnen Way",
         "visits": 1929,
         "hours": 2502.91,
-        "checked": 1451788
+        "checked": 1451788,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1929,
+        "intensity_category": "Medium",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -76,7 +502,16 @@
         "location": "Hindmarsh Drive",
         "visits": 1774,
         "hours": 2340.76,
-        "checked": 1552137
+        "checked": 1552137,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1774,
+        "intensity_category": "Medium",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +528,16 @@
         "location": "Canberra Avenue",
         "visits": 1675,
         "hours": 2218.38,
-        "checked": 1299611
+        "checked": 1299611,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1675,
+        "intensity_category": "Medium",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -110,7 +554,16 @@
         "location": "Majura Parkway",
         "visits": 1494,
         "hours": 1958.8300000000002,
-        "checked": 1606654
+        "checked": 1606654,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1494,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -127,7 +580,16 @@
         "location": "Yamba Drive",
         "visits": 1494,
         "hours": 1938.47,
-        "checked": 848083
+        "checked": 848083,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1494,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -144,7 +606,16 @@
         "location": "Ginninderra Drive",
         "visits": 1478,
         "hours": 1933.8600000000001,
-        "checked": 965716
+        "checked": 965716,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1478,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +632,16 @@
         "location": "Northbourne Avenue",
         "visits": 1374,
         "hours": 1796.94,
-        "checked": 1247971
+        "checked": 1247971,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1374,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -178,7 +658,16 @@
         "location": "Drakeford Drive",
         "visits": 1334,
         "hours": 1795.8600000000001,
-        "checked": 1273779
+        "checked": 1273779,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1334,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -195,7 +684,16 @@
         "location": "William Hovell Drive",
         "visits": 1316,
         "hours": 1654.07,
-        "checked": 1506221
+        "checked": 1506221,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1316,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -212,7 +710,16 @@
         "location": "Erindale Drive",
         "visits": 1306,
         "hours": 1737.7,
-        "checked": 994996
+        "checked": 994996,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1306,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -229,7 +736,16 @@
         "location": "Fairbairn Avenue",
         "visits": 1008,
         "hours": 1351.04,
-        "checked": 1466315
+        "checked": 1466315,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1008,
+        "intensity_category": "Low",
+        "frequency": "Very Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +762,16 @@
         "location": "Horse Park Drive",
         "visits": 984,
         "hours": 1279.53,
-        "checked": 1350385
+        "checked": 1350385,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 984,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -263,7 +788,16 @@
         "location": "Barton Highway",
         "visits": 931,
         "hours": 1190.53,
-        "checked": 853485
+        "checked": 853485,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 931,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -280,7 +814,16 @@
         "location": "Parkes Way",
         "visits": 928,
         "hours": 1234.31,
-        "checked": 1399156
+        "checked": 1399156,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 928,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -297,7 +840,16 @@
         "location": "Launceston Street",
         "visits": 924,
         "hours": 1212.08,
-        "checked": 457578
+        "checked": 457578,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 924,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -314,7 +866,16 @@
         "location": "Adelaide Avenue",
         "visits": 908,
         "hours": 1224.3,
-        "checked": 1376747
+        "checked": 1376747,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 908,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -331,7 +892,16 @@
         "location": "Tuggeranong Parkway",
         "visits": 898,
         "hours": 1189.78,
-        "checked": 1148202
+        "checked": 1148202,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 898,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -348,7 +918,16 @@
         "location": "Southern Cross Drive",
         "visits": 837,
         "hours": 1110.05,
-        "checked": 407875
+        "checked": 407875,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 837,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -365,7 +944,16 @@
         "location": "Melrose Drive",
         "visits": 828,
         "hours": 1107.05,
-        "checked": 445822
+        "checked": 445822,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 828,
+        "intensity_category": "Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -382,7 +970,16 @@
         "location": "Commonwealth Avenue",
         "visits": 736,
         "hours": 972.6700000000001,
-        "checked": 989665
+        "checked": 989665,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 736,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -399,7 +996,16 @@
         "location": "College Street",
         "visits": 731,
         "hours": 941.78,
-        "checked": 330852
+        "checked": 330852,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 731,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -416,7 +1022,16 @@
         "location": "Bowen Drive",
         "visits": 726,
         "hours": 990.11,
-        "checked": 576532
+        "checked": 576532,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 726,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -433,7 +1048,16 @@
         "location": "Pialligo Avenue",
         "visits": 688,
         "hours": 912.54,
-        "checked": 1061663
+        "checked": 1061663,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 688,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -450,7 +1074,16 @@
         "location": "Tharwa Drive",
         "visits": 670,
         "hours": 901.5400000000001,
-        "checked": 620654
+        "checked": 620654,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 670,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -467,7 +1100,16 @@
         "location": "Cotter Road",
         "visits": 646,
         "hours": 861.72,
-        "checked": 659150
+        "checked": 659150,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 646,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -484,7 +1126,16 @@
         "location": "Limestone Avenue",
         "visits": 640,
         "hours": 826.65,
-        "checked": 461686
+        "checked": 461686,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 640,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -501,7 +1152,16 @@
         "location": "Mugga Way",
         "visits": 636,
         "hours": 834.5,
-        "checked": 312311
+        "checked": 312311,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 636,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -518,7 +1178,16 @@
         "location": "Namatjira Drive",
         "visits": 625,
         "hours": 820.99,
-        "checked": 407278
+        "checked": 407278,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 625,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -535,7 +1204,16 @@
         "location": "Caswell Drive",
         "visits": 611,
         "hours": 797.16,
-        "checked": 1002963
+        "checked": 1002963,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 611,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -552,7 +1230,16 @@
         "location": "Streeton Drive",
         "visits": 596,
         "hours": 800.13,
-        "checked": 306607
+        "checked": 306607,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 596,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -569,7 +1256,16 @@
         "location": "Beasley Street",
         "visits": 591,
         "hours": 795.79,
-        "checked": 283425
+        "checked": 283425,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 591,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -586,7 +1282,16 @@
         "location": "John Gorton Drive",
         "visits": 580,
         "hours": 771.07,
-        "checked": 341855
+        "checked": 341855,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 580,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -603,7 +1308,16 @@
         "location": "Mugga Lane",
         "visits": 571,
         "hours": 764.8,
-        "checked": 347542
+        "checked": 347542,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 571,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -620,7 +1334,16 @@
         "location": "Jerrabomberra Avenue",
         "visits": 566,
         "hours": 745.37,
-        "checked": 252896
+        "checked": 252896,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 566,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -637,7 +1360,16 @@
         "location": "Kingsford Smith Drive",
         "visits": 561,
         "hours": 739.3100000000001,
-        "checked": 325896
+        "checked": 325896,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 561,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -654,7 +1386,16 @@
         "location": "Federal Highway",
         "visits": 546,
         "hours": 733.4,
-        "checked": 295361
+        "checked": 295361,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 546,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -671,7 +1412,16 @@
         "location": "Ashley Drive",
         "visits": 527,
         "hours": 692.17,
-        "checked": 486565
+        "checked": 486565,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 527,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -688,7 +1438,16 @@
         "location": "Yarra Glen",
         "visits": 520,
         "hours": 679.48,
-        "checked": 414031
+        "checked": 414031,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 520,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -705,7 +1464,16 @@
         "location": "Tillyard Drive",
         "visits": 515,
         "hours": 666.6,
-        "checked": 297732
+        "checked": 297732,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 515,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -722,7 +1490,16 @@
         "location": "Mouat Street",
         "visits": 501,
         "hours": 670.87,
-        "checked": 772664
+        "checked": 772664,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 501,
+        "intensity_category": "Very Low",
+        "frequency": "Frequent",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -739,7 +1516,16 @@
         "location": "Majura Avenue",
         "visits": 487,
         "hours": 631.97,
-        "checked": 291149
+        "checked": 291149,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 487,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -756,7 +1542,16 @@
         "location": "Kings Avenue",
         "visits": 485,
         "hours": 654.39,
-        "checked": 434043
+        "checked": 434043,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 485,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -773,7 +1568,16 @@
         "location": "Blamey Crescent",
         "visits": 472,
         "hours": 621.36,
-        "checked": 185279
+        "checked": 185279,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 472,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -790,7 +1594,16 @@
         "location": "Phillip Avenue",
         "visits": 469,
         "hours": 614.49,
-        "checked": 283321
+        "checked": 283321,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 469,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -807,7 +1620,16 @@
         "location": "Sternberg Crescent",
         "visits": 466,
         "hours": 618.57,
-        "checked": 136159
+        "checked": 136159,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 466,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -824,7 +1646,16 @@
         "location": "Carruthers Street",
         "visits": 466,
         "hours": 611.59,
-        "checked": 144610
+        "checked": 144610,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 466,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -841,7 +1672,16 @@
         "location": "Gundaroo Drive",
         "visits": 465,
         "hours": 603.24,
-        "checked": 440770
+        "checked": 440770,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 465,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -858,7 +1698,16 @@
         "location": "Bindubi Street",
         "visits": 449,
         "hours": 574.46,
-        "checked": 304891
+        "checked": 304891,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 449,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -875,7 +1724,16 @@
         "location": "Sutton Road",
         "visits": 448,
         "hours": 588.88,
-        "checked": 135472
+        "checked": 135472,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 448,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -892,7 +1750,16 @@
         "location": "Wentworth Avenue",
         "visits": 446,
         "hours": 595.34,
-        "checked": 243230
+        "checked": 243230,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 446,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -909,7 +1776,16 @@
         "location": "Baldwin Drive",
         "visits": 445,
         "hours": 594.52,
-        "checked": 319484
+        "checked": 319484,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 445,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -926,7 +1802,16 @@
         "location": "Kings Highway",
         "visits": 441,
         "hours": 571.5600000000001,
-        "checked": 307907
+        "checked": 307907,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 441,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -943,7 +1828,16 @@
         "location": "Coulter Drive",
         "visits": 431,
         "hours": 555.1800000000001,
-        "checked": 295463
+        "checked": 295463,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 431,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -960,7 +1854,16 @@
         "location": "The Valley Avenue",
         "visits": 417,
         "hours": 537.08,
-        "checked": 266581
+        "checked": 266581,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 417,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -977,7 +1880,16 @@
         "location": "Kelleway Avenue",
         "visits": 408,
         "hours": 525.66,
-        "checked": 179881
+        "checked": 179881,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 408,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -994,7 +1906,16 @@
         "location": "Chewings Street",
         "visits": 398,
         "hours": 533.83,
-        "checked": 125481
+        "checked": 125481,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 398,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1011,7 +1932,16 @@
         "location": "Denison Street",
         "visits": 397,
         "hours": 516.92,
-        "checked": 219172
+        "checked": 219172,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 397,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1028,7 +1958,16 @@
         "location": "Copland Drive",
         "visits": 396,
         "hours": 520.62,
-        "checked": 225788
+        "checked": 225788,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 396,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1045,7 +1984,16 @@
         "location": "Isabella Drive",
         "visits": 394,
         "hours": 523.66,
-        "checked": 267355
+        "checked": 267355,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 394,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1062,7 +2010,16 @@
         "location": "William Hovell drive",
         "visits": 393,
         "hours": 533.24,
-        "checked": 457712
+        "checked": 457712,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 393,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1079,7 +2036,16 @@
         "location": "Morshead Drive",
         "visits": 391,
         "hours": 528.0600000000001,
-        "checked": 917249
+        "checked": 917249,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 391,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1096,7 +2062,16 @@
         "location": "Long Gully Road",
         "visits": 388,
         "hours": 526.3,
-        "checked": 455009
+        "checked": 455009,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 388,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1113,7 +2088,16 @@
         "location": "Antill Street",
         "visits": 368,
         "hours": 479.7,
-        "checked": 172958
+        "checked": 172958,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 368,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1130,7 +2114,16 @@
         "location": "Sulwood Drive",
         "visits": 366,
         "hours": 496.08,
-        "checked": 296591
+        "checked": 296591,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 366,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1147,7 +2140,16 @@
         "location": "Kent Street",
         "visits": 366,
         "hours": 473.63,
-        "checked": 287408
+        "checked": 287408,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 366,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1164,7 +2166,16 @@
         "location": "La Perouse Street",
         "visits": 365,
         "hours": 480.59000000000003,
-        "checked": 154137
+        "checked": 154137,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 365,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1181,7 +2192,16 @@
         "location": "Knoke Avenue",
         "visits": 364,
         "hours": 483.92,
-        "checked": 69270
+        "checked": 69270,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 364,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1198,7 +2218,16 @@
         "location": "Florey Drive",
         "visits": 355,
         "hours": 465.02000000000004,
-        "checked": 250781
+        "checked": 250781,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 355,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1215,7 +2244,16 @@
         "location": "Bugden Avenue",
         "visits": 352,
         "hours": 466.83,
-        "checked": 107931
+        "checked": 107931,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 352,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1232,7 +2270,16 @@
         "location": "Starke Street",
         "visits": 352,
         "hours": 451.05,
-        "checked": 92262
+        "checked": 92262,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 352,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1249,7 +2296,16 @@
         "location": "Murranji Street",
         "visits": 336,
         "hours": 441.18,
-        "checked": 54773
+        "checked": 54773,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 336,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1266,7 +2322,16 @@
         "location": "Brigalow Street",
         "visits": 332,
         "hours": 421.55,
-        "checked": 164583
+        "checked": 164583,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 332,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1283,7 +2348,16 @@
         "location": "Fairfax Street",
         "visits": 332,
         "hours": 451.32,
-        "checked": 291387
+        "checked": 291387,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 332,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1300,7 +2374,16 @@
         "location": "Ellerston Avenue",
         "visits": 327,
         "hours": 436.7,
-        "checked": 96291
+        "checked": 96291,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 327,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1317,7 +2400,16 @@
         "location": "Kootara Crescent",
         "visits": 319,
         "hours": 414.08,
-        "checked": 53082
+        "checked": 53082,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 319,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1334,7 +2426,16 @@
         "location": "Cowper Street",
         "visits": 314,
         "hours": 409.72,
-        "checked": 235175
+        "checked": 235175,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 314,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1351,7 +2452,16 @@
         "location": "Heagney Crescent",
         "visits": 311,
         "hours": 409.75,
-        "checked": 89324
+        "checked": 89324,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 311,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1368,7 +2478,16 @@
         "location": "Perry Drive",
         "visits": 305,
         "hours": 394.21000000000004,
-        "checked": 66782
+        "checked": 66782,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 305,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1385,7 +2504,16 @@
         "location": "Ellenborough Street",
         "visits": 304,
         "hours": 401.46000000000004,
-        "checked": 228539
+        "checked": 228539,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 304,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1402,7 +2530,16 @@
         "location": "Marconi Crescent",
         "visits": 303,
         "hours": 408.01,
-        "checked": 109740
+        "checked": 109740,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 303,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1419,7 +2556,16 @@
         "location": "Isabella drive",
         "visits": 297,
         "hours": 391.04,
-        "checked": 259172
+        "checked": 259172,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 297,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1436,7 +2582,16 @@
         "location": "Donaldson Street",
         "visits": 297,
         "hours": 381.44,
-        "checked": 62133
+        "checked": 62133,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 297,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1453,7 +2608,16 @@
         "location": "Oodgeroo Avenue",
         "visits": 295,
         "hours": 383.78000000000003,
-        "checked": 100525
+        "checked": 100525,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 295,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1470,7 +2634,16 @@
         "location": "Marr Street",
         "visits": 291,
         "hours": 382.93,
-        "checked": 67636
+        "checked": 67636,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 291,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1487,7 +2660,16 @@
         "location": "Woodcock Drive",
         "visits": 287,
         "hours": 379.94,
-        "checked": 151877
+        "checked": 151877,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 287,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1504,7 +2686,16 @@
         "location": "Drake Brockman Drive",
         "visits": 287,
         "hours": 375.93,
-        "checked": 231646
+        "checked": 231646,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 287,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1521,7 +2712,16 @@
         "location": "Badimara Street",
         "visits": 280,
         "hours": 368.01,
-        "checked": 82041
+        "checked": 82041,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 280,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1538,7 +2738,16 @@
         "location": "Johnson Drive",
         "visits": 280,
         "hours": 371.34000000000003,
-        "checked": 196902
+        "checked": 196902,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 280,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1555,7 +2764,16 @@
         "location": "Bennelong Crescent",
         "visits": 279,
         "hours": 351.68,
-        "checked": 26264
+        "checked": 26264,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 279,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1572,7 +2790,16 @@
         "location": "Lawrence Wackett Crescent",
         "visits": 277,
         "hours": 362.14,
-        "checked": 48368
+        "checked": 48368,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 277,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1589,7 +2816,16 @@
         "location": "Boddington Crescent",
         "visits": 273,
         "hours": 358.96000000000004,
-        "checked": 154090
+        "checked": 154090,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 273,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1606,7 +2842,16 @@
         "location": "Goyder Street",
         "visits": 269,
         "hours": 361.97,
-        "checked": 82671
+        "checked": 82671,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 269,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1623,7 +2868,16 @@
         "location": "Flemington Road",
         "visits": 266,
         "hours": 343.8,
-        "checked": 130599
+        "checked": 130599,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 266,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1640,7 +2894,16 @@
         "location": "Groom Street",
         "visits": 257,
         "hours": 337.86,
-        "checked": 45822
+        "checked": 45822,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 257,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1657,7 +2920,16 @@
         "location": "Ainsworth Street",
         "visits": 253,
         "hours": 332.59000000000003,
-        "checked": 53606
+        "checked": 53606,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 253,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1674,7 +2946,16 @@
         "location": "Bindel Street",
         "visits": 251,
         "hours": 322.48,
-        "checked": 81137
+        "checked": 81137,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 251,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1691,7 +2972,16 @@
         "location": "Hoskins Street",
         "visits": 250,
         "hours": 331.18,
-        "checked": 116889
+        "checked": 116889,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 250,
+        "intensity_category": "Very Low",
+        "frequency": "Regular",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1708,7 +2998,16 @@
         "location": "Monaro Highway - Road Works",
         "visits": 243,
         "hours": 329.42,
-        "checked": 391439
+        "checked": 391439,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 243,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1725,7 +3024,16 @@
         "location": "Redfern Street",
         "visits": 239,
         "hours": 312.86,
-        "checked": 118698
+        "checked": 118698,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 239,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1742,7 +3050,16 @@
         "location": "Mulley Street",
         "visits": 236,
         "hours": 299.19,
-        "checked": 49013
+        "checked": 49013,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 236,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1759,7 +3076,16 @@
         "location": "Barry Drive",
         "visits": 234,
         "hours": 309.28000000000003,
-        "checked": 153439
+        "checked": 153439,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 234,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1776,7 +3102,16 @@
         "location": "National Circuit",
         "visits": 229,
         "hours": 290.90000000000003,
-        "checked": 47233
+        "checked": 47233,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 229,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1793,7 +3128,16 @@
         "location": "Beaurepaire Crescent",
         "visits": 229,
         "hours": 316.21000000000004,
-        "checked": 56745
+        "checked": 56745,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 229,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1810,7 +3154,16 @@
         "location": "Lady Denman Drive",
         "visits": 229,
         "hours": 308.89,
-        "checked": 141019
+        "checked": 141019,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 229,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1827,7 +3180,16 @@
         "location": "Hambidge Crescent",
         "visits": 227,
         "hours": 295.40000000000003,
-        "checked": 38992
+        "checked": 38992,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 227,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1844,7 +3206,16 @@
         "location": "Mcbryde Crescent",
         "visits": 226,
         "hours": 297.81,
-        "checked": 61802
+        "checked": 61802,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 226,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -1861,7 +3232,16 @@
         "location": "Shumack Street",
         "visits": 223,
         "hours": 298.18,
-        "checked": 28784
+        "checked": 28784,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 223,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -1878,7 +3258,16 @@
         "location": "State Circle",
         "visits": 219,
         "hours": 291.11,
-        "checked": 136902
+        "checked": 136902,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 219,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1895,7 +3284,16 @@
         "location": "Captain Cook Crescent",
         "visits": 218,
         "hours": 286.1,
-        "checked": 51759
+        "checked": 51759,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 218,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -1912,7 +3310,16 @@
         "location": "Ross Smith Crescent",
         "visits": 218,
         "hours": 276.08,
-        "checked": 31284
+        "checked": 31284,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 218,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1929,7 +3336,16 @@
         "location": "Knox Street",
         "visits": 216,
         "hours": 271.78000000000003,
-        "checked": 33454
+        "checked": 33454,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 216,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1946,7 +3362,16 @@
         "location": "Williamson Street",
         "visits": 216,
         "hours": 292.49,
-        "checked": 29622
+        "checked": 29622,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 216,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1963,7 +3388,16 @@
         "location": "Officer Crescent",
         "visits": 209,
         "hours": 275.89,
-        "checked": 66653
+        "checked": 66653,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 209,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1980,7 +3414,16 @@
         "location": "Bandjalong Crescent",
         "visits": 207,
         "hours": 258.93,
-        "checked": 50157
+        "checked": 50157,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 207,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -1997,7 +3440,16 @@
         "location": "Burrinjuck Crecent",
         "visits": 206,
         "hours": 273.86,
-        "checked": 34082
+        "checked": 34082,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 206,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2014,7 +3466,16 @@
         "location": "Hilder Street",
         "visits": 198,
         "hours": 265.92,
-        "checked": 30531
+        "checked": 30531,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 198,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2031,7 +3492,16 @@
         "location": "Lanyon Drive",
         "visits": 196,
         "hours": 269.88,
-        "checked": 263737
+        "checked": 263737,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 196,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2048,7 +3518,16 @@
         "location": "Kosciuszko Avenue",
         "visits": 194,
         "hours": 254.89000000000001,
-        "checked": 65023
+        "checked": 65023,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 194,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2065,7 +3544,16 @@
         "location": "O'Halloran Circuit",
         "visits": 191,
         "hours": 257.83,
-        "checked": 52868
+        "checked": 52868,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 191,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2082,7 +3570,16 @@
         "location": "Mawson Drive",
         "visits": 187,
         "hours": 251.57,
-        "checked": 100306
+        "checked": 100306,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 187,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2099,7 +3596,16 @@
         "location": "Springvale Drive",
         "visits": 183,
         "hours": 242.45000000000002,
-        "checked": 93746
+        "checked": 93746,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 183,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2116,7 +3622,16 @@
         "location": "Anzac Parade",
         "visits": 183,
         "hours": 251.31,
-        "checked": 101015
+        "checked": 101015,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 183,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2133,7 +3648,16 @@
         "location": "Overall Avenue",
         "visits": 181,
         "hours": 244.24,
-        "checked": 60036
+        "checked": 60036,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 181,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2150,7 +3674,16 @@
         "location": "Anthony Rolfe Avenue",
         "visits": 176,
         "hours": 231.49,
-        "checked": 54019
+        "checked": 54019,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 176,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2167,7 +3700,16 @@
         "location": "Wheeler Crescent",
         "visits": 173,
         "hours": 220.46,
-        "checked": 48111
+        "checked": 48111,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 173,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2184,7 +3726,16 @@
         "location": "MacGregor  Street",
         "visits": 172,
         "hours": 237.05,
-        "checked": 47875
+        "checked": 47875,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 172,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2201,7 +3752,16 @@
         "location": "Alberga Street",
         "visits": 166,
         "hours": 205.76,
-        "checked": 25906
+        "checked": 25906,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 166,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2218,7 +3778,16 @@
         "location": "Owen Dixon Drive",
         "visits": 164,
         "hours": 207.55,
-        "checked": 61685
+        "checked": 61685,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 164,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2235,7 +3804,16 @@
         "location": "Maribyrnong Avenue",
         "visits": 164,
         "hours": 209.02,
-        "checked": 81783
+        "checked": 81783,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 164,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2252,7 +3830,16 @@
         "location": "Capital Circle",
         "visits": 164,
         "hours": 220.75,
-        "checked": 152272
+        "checked": 152272,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 164,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -2269,7 +3856,16 @@
         "location": "Sturt Avenue",
         "visits": 163,
         "hours": 219.32,
-        "checked": 57220
+        "checked": 57220,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 163,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2286,7 +3882,16 @@
         "location": "Heidelberg Street",
         "visits": 159,
         "hours": 203.64000000000001,
-        "checked": 43382
+        "checked": 43382,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 159,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2303,7 +3908,16 @@
         "location": "Dixon Drive",
         "visits": 158,
         "hours": 208.13,
-        "checked": 41401
+        "checked": 41401,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 158,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -2320,7 +3934,16 @@
         "location": "William Webb Drive",
         "visits": 157,
         "hours": 204.1,
-        "checked": 78231
+        "checked": 78231,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 157,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2337,7 +3960,16 @@
         "location": "Castieau Street",
         "visits": 155,
         "hours": 204.70000000000002,
-        "checked": 23887
+        "checked": 23887,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 155,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2354,7 +3986,16 @@
         "location": "Well Station Drive",
         "visits": 155,
         "hours": 196.05,
-        "checked": 82601
+        "checked": 82601,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 155,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2371,7 +4012,16 @@
         "location": "Macarthur Avenue",
         "visits": 154,
         "hours": 199.52,
-        "checked": 55970
+        "checked": 55970,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 154,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2388,7 +4038,16 @@
         "location": "Goodwin Street",
         "visits": 152,
         "hours": 194.58,
-        "checked": 24947
+        "checked": 24947,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 152,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2405,7 +4064,16 @@
         "location": "Blackwood Terrace",
         "visits": 152,
         "hours": 196.96,
-        "checked": 21313
+        "checked": 21313,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 152,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2422,7 +4090,16 @@
         "location": "Chauvel Street",
         "visits": 150,
         "hours": 195.65,
-        "checked": 19902
+        "checked": 19902,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 150,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2439,7 +4116,16 @@
         "location": "Railway Street",
         "visits": 149,
         "hours": 200.91,
-        "checked": 66089
+        "checked": 66089,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 149,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2456,7 +4142,16 @@
         "location": "Box Hill Avenue",
         "visits": 147,
         "hours": 201.94,
-        "checked": 12193
+        "checked": 12193,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 147,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2473,7 +4168,16 @@
         "location": "Abena Avenue",
         "visits": 146,
         "hours": 197.09,
-        "checked": 67613
+        "checked": 67613,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 146,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2490,7 +4194,16 @@
         "location": "Horse Park Drive Road Works",
         "visits": 145,
         "hours": 190.3,
-        "checked": 136830
+        "checked": 136830,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 145,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2507,7 +4220,16 @@
         "location": "Ebden Street",
         "visits": 144,
         "hours": 191.81,
-        "checked": 58743
+        "checked": 58743,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 144,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2524,7 +4246,16 @@
         "location": "Melbourne Avenue",
         "visits": 137,
         "hours": 179.99,
-        "checked": 17646
+        "checked": 17646,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 137,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2541,7 +4272,16 @@
         "location": "Casey Crescent",
         "visits": 136,
         "hours": 189.23000000000002,
-        "checked": 23991
+        "checked": 23991,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 136,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2558,7 +4298,16 @@
         "location": "Lambrigg Street",
         "visits": 132,
         "hours": 172.32,
-        "checked": 18047
+        "checked": 18047,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 132,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -2575,7 +4324,16 @@
         "location": "Erldunda Circuit",
         "visits": 129,
         "hours": 150.21,
-        "checked": 11843
+        "checked": 11843,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 129,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2592,7 +4350,16 @@
         "location": "Kerrigan Street",
         "visits": 129,
         "hours": 165.37,
-        "checked": 40629
+        "checked": 40629,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 129,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -2609,7 +4376,16 @@
         "location": "Lhotsky Street",
         "visits": 129,
         "hours": 173.49,
-        "checked": 45631
+        "checked": 45631,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 129,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2626,7 +4402,16 @@
         "location": "Ashburton Cct",
         "visits": 128,
         "hours": 156.8,
-        "checked": 15919
+        "checked": 15919,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 128,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2643,7 +4428,16 @@
         "location": "Theodore Street",
         "visits": 127,
         "hours": 168.46,
-        "checked": 70968
+        "checked": 70968,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 127,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -2660,7 +4454,16 @@
         "location": "Haydon Drive",
         "visits": 125,
         "hours": 152.56,
-        "checked": 64475
+        "checked": 64475,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 125,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2677,7 +4480,16 @@
         "location": "McInnes Street",
         "visits": 125,
         "hours": 168.23000000000002,
-        "checked": 22201
+        "checked": 22201,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 125,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2694,7 +4506,16 @@
         "location": "Flemington Road (ROADWORKS)",
         "visits": 124,
         "hours": 163.46,
-        "checked": 43154
+        "checked": 43154,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 124,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2711,7 +4532,16 @@
         "location": "Monaro Crescent",
         "visits": 124,
         "hours": 167.43,
-        "checked": 30911
+        "checked": 30911,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 124,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2728,7 +4558,16 @@
         "location": "Outtrim Avenue",
         "visits": 120,
         "hours": 159.88,
-        "checked": 46157
+        "checked": 46157,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 120,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2745,7 +4584,16 @@
         "location": " Namatjira Drive",
         "visits": 120,
         "hours": 161.8,
-        "checked": 66333
+        "checked": 66333,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 120,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2762,7 +4610,16 @@
         "location": "Warragamba Avenue",
         "visits": 119,
         "hours": 153.43,
-        "checked": 13042
+        "checked": 13042,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 119,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2779,7 +4636,16 @@
         "location": "Summerland Circuit",
         "visits": 119,
         "hours": 156.54,
-        "checked": 21838
+        "checked": 21838,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 119,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2796,7 +4662,16 @@
         "location": "Chuculba Crescent",
         "visits": 117,
         "hours": 153.07,
-        "checked": 22592
+        "checked": 22592,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 117,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2813,7 +4688,16 @@
         "location": "Pockett Avenue",
         "visits": 116,
         "hours": 155.65,
-        "checked": 43347
+        "checked": 43347,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 116,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2830,7 +4714,16 @@
         "location": "Fremantle Drive",
         "visits": 116,
         "hours": 152.61,
-        "checked": 21966
+        "checked": 21966,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 116,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -2847,7 +4740,16 @@
         "location": "Carnegie Crescent",
         "visits": 115,
         "hours": 158.77,
-        "checked": 31261
+        "checked": 31261,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 115,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2864,7 +4766,16 @@
         "location": "Barnard Circuit",
         "visits": 114,
         "hours": 143.57,
-        "checked": 13979
+        "checked": 13979,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 114,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2881,7 +4792,16 @@
         "location": "Wilkins Street",
         "visits": 114,
         "hours": 151.38,
-        "checked": 31621
+        "checked": 31621,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 114,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2898,7 +4818,16 @@
         "location": "Darwinia Terrace",
         "visits": 110,
         "hours": 145.35,
-        "checked": 25052
+        "checked": 25052,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 110,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -2915,7 +4844,16 @@
         "location": "Mapleton Avenue",
         "visits": 109,
         "hours": 143.88,
-        "checked": 43123
+        "checked": 43123,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 109,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -2932,7 +4870,16 @@
         "location": "Wirraway Crescent",
         "visits": 104,
         "hours": 133.86,
-        "checked": 11886
+        "checked": 11886,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 104,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2949,7 +4896,16 @@
         "location": "Ratcliffe Crescent",
         "visits": 102,
         "hours": 135.63,
-        "checked": 30467
+        "checked": 30467,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 102,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -2966,7 +4922,16 @@
         "location": "Dryandra Street",
         "visits": 102,
         "hours": 140.05,
-        "checked": 14705
+        "checked": 14705,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 102,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -2983,7 +4948,16 @@
         "location": "Chippindall Cct",
         "visits": 101,
         "hours": 137.2,
-        "checked": 16367
+        "checked": 16367,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 101,
+        "intensity_category": "Very Low",
+        "frequency": "Occasional",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3000,7 +4974,16 @@
         "location": "Stonehaven Crescent",
         "visits": 99,
         "hours": 134.19,
-        "checked": 80067
+        "checked": 80067,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 99,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3017,7 +5000,16 @@
         "location": "Aikman Drive",
         "visits": 99,
         "hours": 128.08,
-        "checked": 59810
+        "checked": 59810,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 99,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3034,7 +5026,16 @@
         "location": "Telopea Park",
         "visits": 98,
         "hours": 131.26,
-        "checked": 31602
+        "checked": 31602,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 98,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3051,7 +5052,16 @@
         "location": "Osburn Drive",
         "visits": 98,
         "hours": 126.64,
-        "checked": 27719
+        "checked": 27719,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 98,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3068,7 +5078,16 @@
         "location": "Coyne Street",
         "visits": 96,
         "hours": 132.4,
-        "checked": 49894
+        "checked": 49894,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 96,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3085,7 +5104,16 @@
         "location": "Mulligans Flat Road",
         "visits": 96,
         "hours": 125.68,
-        "checked": 32145
+        "checked": 32145,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 96,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3102,7 +5130,16 @@
         "location": "Eyre Street",
         "visits": 96,
         "hours": 129.57,
-        "checked": 33797
+        "checked": 33797,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 96,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3119,7 +5156,16 @@
         "location": "Eggleston Crescent",
         "visits": 94,
         "hours": 124.61,
-        "checked": 41414
+        "checked": 41414,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 94,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3136,7 +5182,16 @@
         "location": "Kalgoorlie Crescent",
         "visits": 94,
         "hours": 126.61,
-        "checked": 13869
+        "checked": 13869,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 94,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3153,7 +5208,16 @@
         "location": "Nemarang Crescent",
         "visits": 93,
         "hours": 122.08,
-        "checked": 10134
+        "checked": 10134,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 93,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3170,7 +5234,16 @@
         "location": "Drumston Street",
         "visits": 92,
         "hours": 123.93,
-        "checked": 19067
+        "checked": 19067,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 92,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3187,7 +5260,16 @@
         "location": "Livingston Avenue",
         "visits": 92,
         "hours": 124.27000000000001,
-        "checked": 26877
+        "checked": 26877,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 92,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3204,7 +5286,16 @@
         "location": "Jim Pike Avenue",
         "visits": 90,
         "hours": 119.87,
-        "checked": 28068
+        "checked": 28068,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 90,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3221,7 +5312,16 @@
         "location": "Miller Street",
         "visits": 88,
         "hours": 120.81,
-        "checked": 18165
+        "checked": 18165,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 88,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3238,7 +5338,16 @@
         "location": "Arthur Circle",
         "visits": 88,
         "hours": 115.83,
-        "checked": 12453
+        "checked": 12453,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 88,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3255,7 +5364,16 @@
         "location": "Burrinjuck Crescent",
         "visits": 87,
         "hours": 114.67,
-        "checked": 6866
+        "checked": 6866,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 87,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3272,7 +5390,16 @@
         "location": "MacFarland Crescent",
         "visits": 87,
         "hours": 116.54,
-        "checked": 29256
+        "checked": 29256,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 87,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3289,7 +5416,16 @@
         "location": "Strickland Crescent",
         "visits": 85,
         "hours": 112.83,
-        "checked": 33465
+        "checked": 33465,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 85,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3306,7 +5442,16 @@
         "location": "Mirrabei Drive",
         "visits": 84,
         "hours": 108.58,
-        "checked": 95932
+        "checked": 95932,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 84,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3323,7 +5468,16 @@
         "location": "Clarrie Hermes Drive",
         "visits": 84,
         "hours": 108.03,
-        "checked": 91846
+        "checked": 91846,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 84,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3340,7 +5494,16 @@
         "location": "Goldstein Crescent",
         "visits": 84,
         "hours": 115.7,
-        "checked": 25359
+        "checked": 25359,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 84,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3357,7 +5520,16 @@
         "location": "Nullarbor Avenue",
         "visits": 83,
         "hours": 109.74000000000001,
-        "checked": 18119
+        "checked": 18119,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 83,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3374,7 +5546,16 @@
         "location": "Tom Roberts Avenue",
         "visits": 83,
         "hours": 110.71000000000001,
-        "checked": 17700
+        "checked": 17700,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 83,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3391,7 +5572,16 @@
         "location": "Fullagar Crescent",
         "visits": 83,
         "hours": 104.75,
-        "checked": 14872
+        "checked": 14872,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 83,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3408,7 +5598,16 @@
         "location": "Taverner Street",
         "visits": 83,
         "hours": 111.35000000000001,
-        "checked": 19220
+        "checked": 19220,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 83,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3425,7 +5624,16 @@
         "location": "Hobart Avenue",
         "visits": 82,
         "hours": 91.94,
-        "checked": 15755
+        "checked": 15755,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 82,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3442,7 +5650,16 @@
         "location": "William Slim Drive",
         "visits": 82,
         "hours": 108.33,
-        "checked": 62290
+        "checked": 62290,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 82,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3459,7 +5676,16 @@
         "location": "Amy Ackman Street",
         "visits": 80,
         "hours": 104.27000000000001,
-        "checked": 12316
+        "checked": 12316,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 80,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3476,7 +5702,16 @@
         "location": "Ashley Drive (ROADWORKS)",
         "visits": 79,
         "hours": 103.74000000000001,
-        "checked": 62204
+        "checked": 62204,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 79,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3493,7 +5728,16 @@
         "location": "Bunbury Street",
         "visits": 76,
         "hours": 103.96000000000001,
-        "checked": 13074
+        "checked": 13074,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 76,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3510,7 +5754,16 @@
         "location": "Petterd Street",
         "visits": 74,
         "hours": 95.62,
-        "checked": 11636
+        "checked": 11636,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 74,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3527,7 +5780,16 @@
         "location": "Matina Street",
         "visits": 74,
         "hours": 97.82000000000001,
-        "checked": 11556
+        "checked": 11556,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 74,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3544,7 +5806,16 @@
         "location": "Learmonth Drive",
         "visits": 73,
         "hours": 96.24000000000001,
-        "checked": 19738
+        "checked": 19738,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 73,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3561,7 +5832,16 @@
         "location": "Clive Steele Avenue",
         "visits": 73,
         "hours": 94.43,
-        "checked": 15261
+        "checked": 15261,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 73,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3578,7 +5858,16 @@
         "location": "Spalding Street",
         "visits": 70,
         "hours": 90.52,
-        "checked": 19541
+        "checked": 19541,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 70,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3595,7 +5884,16 @@
         "location": "David Walsh Avenue",
         "visits": 70,
         "hours": 88.86,
-        "checked": 26881
+        "checked": 26881,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 70,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3612,7 +5910,16 @@
         "location": "O'Loghlen Street",
         "visits": 70,
         "hours": 92.2,
-        "checked": 12856
+        "checked": 12856,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 70,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3629,7 +5936,16 @@
         "location": "Hodgson Crescent",
         "visits": 69,
         "hours": 90.91,
-        "checked": 17833
+        "checked": 17833,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 69,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3646,7 +5962,16 @@
         "location": "Lachlan Street",
         "visits": 69,
         "hours": 86.95,
-        "checked": 9987
+        "checked": 9987,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 69,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3663,7 +5988,16 @@
         "location": "Weston Street",
         "visits": 68,
         "hours": 90.11,
-        "checked": 15361
+        "checked": 15361,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 68,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3680,7 +6014,16 @@
         "location": "Newman Morris Circuit",
         "visits": 67,
         "hours": 87.66,
-        "checked": 8166
+        "checked": 8166,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 67,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3697,7 +6040,16 @@
         "location": "Eucumbene Drive",
         "visits": 67,
         "hours": 89.44,
-        "checked": 15694
+        "checked": 15694,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 67,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3714,7 +6066,16 @@
         "location": "Novar Street",
         "visits": 67,
         "hours": 87.89,
-        "checked": 22449
+        "checked": 22449,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 67,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3731,7 +6092,16 @@
         "location": "Barr Smith Avenue",
         "visits": 66,
         "hours": 85.92,
-        "checked": 14449
+        "checked": 14449,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 66,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3748,7 +6118,16 @@
         "location": "Plimsoll Drive",
         "visits": 65,
         "hours": 81.62,
-        "checked": 16419
+        "checked": 16419,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 65,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3765,7 +6144,16 @@
         "location": "Hemmings Crescent",
         "visits": 65,
         "hours": 87.26,
-        "checked": 5713
+        "checked": 5713,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 65,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3782,7 +6170,16 @@
         "location": "Bateman Street",
         "visits": 65,
         "hours": 89.05,
-        "checked": 27234
+        "checked": 27234,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 65,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3799,7 +6196,16 @@
         "location": "Bangalay Crescent",
         "visits": 65,
         "hours": 85.73,
-        "checked": 13898
+        "checked": 13898,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 65,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3816,7 +6222,16 @@
         "location": "Companion Crescent",
         "visits": 64,
         "hours": 82.5,
-        "checked": 5497
+        "checked": 5497,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 64,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3833,7 +6248,16 @@
         "location": "Boolimba Crescent",
         "visits": 64,
         "hours": 86.13000000000001,
-        "checked": 8307
+        "checked": 8307,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 64,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3850,7 +6274,16 @@
         "location": "Giles Street",
         "visits": 63,
         "hours": 81.62,
-        "checked": 18559
+        "checked": 18559,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 63,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3867,7 +6300,16 @@
         "location": "Cotter Road (ROADWORKS)",
         "visits": 62,
         "hours": 81.17,
-        "checked": 53586
+        "checked": 53586,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 62,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3884,7 +6326,16 @@
         "location": "Catchpole Street",
         "visits": 61,
         "hours": 81.96000000000001,
-        "checked": 29492
+        "checked": 29492,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 61,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3901,7 +6352,16 @@
         "location": "Longmore Crescent",
         "visits": 59,
         "hours": 77.82000000000001,
-        "checked": 6552
+        "checked": 6552,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 59,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3918,7 +6378,16 @@
         "location": "Lyttleton Crescent",
         "visits": 58,
         "hours": 76.54,
-        "checked": 19520
+        "checked": 19520,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 58,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -3935,7 +6404,16 @@
         "location": "Essie Coffey Street",
         "visits": 57,
         "hours": 70.84,
-        "checked": 5303
+        "checked": 5303,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 57,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -3952,7 +6430,16 @@
         "location": "Schlich Street",
         "visits": 56,
         "hours": 73.96000000000001,
-        "checked": 5458
+        "checked": 5458,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 56,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -3969,7 +6456,16 @@
         "location": "Archdall Street",
         "visits": 53,
         "hours": 69.99,
-        "checked": 7653
+        "checked": 7653,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 53,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -3986,7 +6482,16 @@
         "location": "Benjamin Way",
         "visits": 53,
         "hours": 68.74,
-        "checked": 23229
+        "checked": 23229,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 53,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4003,7 +6508,16 @@
         "location": "Shoalhaven Avenue",
         "visits": 51,
         "hours": 64.2,
-        "checked": 23304
+        "checked": 23304,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 51,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4020,7 +6534,16 @@
         "location": "Roden Cutler Drive",
         "visits": 50,
         "hours": 65.35,
-        "checked": 19826
+        "checked": 19826,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 50,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4037,7 +6560,16 @@
         "location": "John Cleland Crescent",
         "visits": 50,
         "hours": 62.410000000000004,
-        "checked": 15701
+        "checked": 15701,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 50,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4054,7 +6586,16 @@
         "location": "Forsythe Street",
         "visits": 49,
         "hours": 65.25,
-        "checked": 8610
+        "checked": 8610,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 49,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4071,7 +6612,16 @@
         "location": "Joynton Smith Drive",
         "visits": 48,
         "hours": 59.45,
-        "checked": 23897
+        "checked": 23897,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 48,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4088,7 +6638,16 @@
         "location": "Nudurr Drive",
         "visits": 48,
         "hours": 60.660000000000004,
-        "checked": 10662
+        "checked": 10662,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 48,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4105,7 +6664,16 @@
         "location": "Charleston Street",
         "visits": 48,
         "hours": 63.01,
-        "checked": 11750
+        "checked": 11750,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 48,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4122,7 +6690,16 @@
         "location": "Cooyong Street",
         "visits": 47,
         "hours": 55.68,
-        "checked": 22830
+        "checked": 22830,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 47,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4139,7 +6716,16 @@
         "location": "Barraclough Crescent",
         "visits": 45,
         "hours": 59.27,
-        "checked": 7158
+        "checked": 7158,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 45,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4156,7 +6742,16 @@
         "location": "Gundaroo Drive (Road Works)",
         "visits": 44,
         "hours": 58.94,
-        "checked": 56249
+        "checked": 56249,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 44,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4173,7 +6768,16 @@
         "location": "Kitchener Street",
         "visits": 44,
         "hours": 60.230000000000004,
-        "checked": 32486
+        "checked": 32486,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 44,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4190,7 +6794,16 @@
         "location": "Eastern Valley Way",
         "visits": 43,
         "hours": 48.94,
-        "checked": 19007
+        "checked": 19007,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 43,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4207,7 +6820,16 @@
         "location": "Northcott Drive",
         "visits": 42,
         "hours": 57.660000000000004,
-        "checked": 21318
+        "checked": 21318,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 42,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4224,7 +6846,16 @@
         "location": "White Crescent",
         "visits": 41,
         "hours": 54.71,
-        "checked": 8920
+        "checked": 8920,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 41,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4241,7 +6872,16 @@
         "location": "Verbrugghen Street",
         "visits": 40,
         "hours": 52.94,
-        "checked": 7931
+        "checked": 7931,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 40,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4258,7 +6898,16 @@
         "location": "Dumas Street",
         "visits": 40,
         "hours": 50.480000000000004,
-        "checked": 5230
+        "checked": 5230,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 40,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4275,7 +6924,16 @@
         "location": "Barton Highway / William Slim Drive Roundabout - Road Works - Northbound",
         "visits": 40,
         "hours": 54.64,
-        "checked": 27395
+        "checked": 27395,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 40,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4292,7 +6950,16 @@
         "location": "Brisbane Avenue",
         "visits": 39,
         "hours": 50.75,
-        "checked": 12984
+        "checked": 12984,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 39,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4309,7 +6976,16 @@
         "location": "Devonport Street",
         "visits": 38,
         "hours": 51.44,
-        "checked": 17662
+        "checked": 17662,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 38,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4326,7 +7002,16 @@
         "location": "Pethebridge Street",
         "visits": 38,
         "hours": 49.28,
-        "checked": 3931
+        "checked": 3931,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 38,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4343,7 +7028,16 @@
         "location": "Bacchus Circuit",
         "visits": 37,
         "hours": 46.74,
-        "checked": 2395
+        "checked": 2395,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 37,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4360,7 +7054,16 @@
         "location": "Heydon Crescent",
         "visits": 37,
         "hours": 49.150000000000006,
-        "checked": 5278
+        "checked": 5278,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 37,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4377,7 +7080,16 @@
         "location": "Clancy Street",
         "visits": 37,
         "hours": 48.64,
-        "checked": 7476
+        "checked": 7476,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 37,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4394,7 +7106,16 @@
         "location": "King Edward Terrace",
         "visits": 36,
         "hours": 47.38,
-        "checked": 23726
+        "checked": 23726,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 36,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4411,7 +7132,16 @@
         "location": "Kuringa Drive",
         "visits": 35,
         "hours": 47.92,
-        "checked": 38067
+        "checked": 38067,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 35,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4428,7 +7158,16 @@
         "location": "Boldrewood Street",
         "visits": 35,
         "hours": 43.800000000000004,
-        "checked": 9476
+        "checked": 9476,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 35,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4445,7 +7184,16 @@
         "location": "Archibald Street",
         "visits": 34,
         "hours": 43.18,
-        "checked": 7600
+        "checked": 7600,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 34,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4462,7 +7210,16 @@
         "location": "Alpen Street",
         "visits": 33,
         "hours": 41.870000000000005,
-        "checked": 8316
+        "checked": 8316,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 33,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4479,7 +7236,16 @@
         "location": "Flinders Way",
         "visits": 33,
         "hours": 41.83,
-        "checked": 17514
+        "checked": 17514,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 33,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4496,7 +7262,16 @@
         "location": "Torrens Street",
         "visits": 33,
         "hours": 43.59,
-        "checked": 19467
+        "checked": 19467,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 33,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4513,7 +7288,16 @@
         "location": "Julia Flynn Avenue",
         "visits": 32,
         "hours": 41.39,
-        "checked": 4352
+        "checked": 4352,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 32,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4530,7 +7314,16 @@
         "location": "Krefft Street",
         "visits": 31,
         "hours": 39.050000000000004,
-        "checked": 8946
+        "checked": 8946,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 31,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4547,7 +7340,16 @@
         "location": "Parkwood Road",
         "visits": 31,
         "hours": 36.89,
-        "checked": 10915
+        "checked": 10915,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 31,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4564,7 +7366,16 @@
         "location": "Heysen Street",
         "visits": 30,
         "hours": 39.57,
-        "checked": 8577
+        "checked": 8577,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 30,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4581,7 +7392,16 @@
         "location": "Deamer Crescent",
         "visits": 30,
         "hours": 40.39,
-        "checked": 4705
+        "checked": 4705,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 30,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4598,7 +7418,16 @@
         "location": "Wimmera Street",
         "visits": 29,
         "hours": 37.94,
-        "checked": 7045
+        "checked": 7045,
+        "data_type": "speed_camera",
+        "district": "ACT North",
+        "region": "Australian Capital Territory",
+        "count": 29,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4615,7 +7444,16 @@
         "location": "Benjamin way",
         "visits": 28,
         "hours": 36.69,
-        "checked": 10733
+        "checked": 10733,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 28,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4632,7 +7470,16 @@
         "location": "Spofforth Street",
         "visits": 27,
         "hours": 32.56,
-        "checked": 5687
+        "checked": 5687,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 27,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4649,7 +7496,16 @@
         "location": "Bramston Street",
         "visits": 27,
         "hours": 35.36,
-        "checked": 4736
+        "checked": 4736,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 27,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4666,7 +7522,16 @@
         "location": "Burkitt Street",
         "visits": 27,
         "hours": 34.58,
-        "checked": 3101
+        "checked": 3101,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 27,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4683,7 +7548,16 @@
         "location": "Langtree Crescent",
         "visits": 26,
         "hours": 35.6,
-        "checked": 3353
+        "checked": 3353,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 26,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4700,7 +7574,16 @@
         "location": "Templestowe Avenue",
         "visits": 24,
         "hours": 31.48,
-        "checked": 1670
+        "checked": 1670,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 24,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4717,7 +7600,16 @@
         "location": "Froggatt Street",
         "visits": 24,
         "hours": 30.0,
-        "checked": 5402
+        "checked": 5402,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 24,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4734,7 +7626,16 @@
         "location": "Norriss Street",
         "visits": 23,
         "hours": 31.76,
-        "checked": 3537
+        "checked": 3537,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 23,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4751,7 +7652,16 @@
         "location": "Clift Crescent",
         "visits": 22,
         "hours": 28.21,
-        "checked": 6114
+        "checked": 6114,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 22,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4768,7 +7678,16 @@
         "location": "Truscott Street",
         "visits": 21,
         "hours": 27.830000000000002,
-        "checked": 5697
+        "checked": 5697,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 21,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4785,7 +7704,16 @@
         "location": "McCulloch Street",
         "visits": 21,
         "hours": 27.91,
-        "checked": 14057
+        "checked": 14057,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 21,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -4802,7 +7730,16 @@
         "location": "Dunstan Street",
         "visits": 20,
         "hours": 25.71,
-        "checked": 2221
+        "checked": 2221,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 20,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4819,7 +7756,16 @@
         "location": "Langdon Avenue",
         "visits": 20,
         "hours": 26.200000000000003,
-        "checked": 4339
+        "checked": 4339,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 20,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4836,7 +7782,16 @@
         "location": "Jackie Howe Crescent",
         "visits": 18,
         "hours": 24.3,
-        "checked": 1415
+        "checked": 1415,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 18,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4853,7 +7808,16 @@
         "location": "Duggan Street",
         "visits": 18,
         "hours": 23.51,
-        "checked": 3970
+        "checked": 3970,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 18,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4870,7 +7834,16 @@
         "location": "Madigan Street",
         "visits": 18,
         "hours": 23.62,
-        "checked": 2472
+        "checked": 2472,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 18,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4887,7 +7860,16 @@
         "location": "Narrabundah Lane",
         "visits": 18,
         "hours": 34.05,
-        "checked": 1811
+        "checked": 1811,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 18,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -4904,7 +7886,16 @@
         "location": "David Street",
         "visits": 18,
         "hours": 18.91,
-        "checked": 2923
+        "checked": 2923,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 18,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4921,7 +7912,16 @@
         "location": "Girrahween Street",
         "visits": 15,
         "hours": 19.48,
-        "checked": 3456
+        "checked": 3456,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 15,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4938,7 +7938,16 @@
         "location": "Fornax Street",
         "visits": 15,
         "hours": 17.53,
-        "checked": 571
+        "checked": 571,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 15,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4955,7 +7964,16 @@
         "location": "6",
         "visits": 14,
         "hours": 18.400000000000002,
-        "checked": 6839
+        "checked": 6839,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 14,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -4972,7 +7990,16 @@
         "location": "Cunningham Street",
         "visits": 14,
         "hours": 17.21,
-        "checked": 524
+        "checked": 524,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 14,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -4989,7 +8016,16 @@
         "location": "Hurley Street",
         "visits": 14,
         "hours": 18.75,
-        "checked": 1681
+        "checked": 1681,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 14,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -5006,7 +8042,16 @@
         "location": "Troughton Street",
         "visits": 13,
         "hours": 16.57,
-        "checked": 712
+        "checked": 712,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 13,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -5023,7 +8068,16 @@
         "location": "Chirnside Circuit",
         "visits": 10,
         "hours": 11.940000000000001,
-        "checked": 219
+        "checked": 219,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 10,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -5040,7 +8094,16 @@
         "location": "Downard Street",
         "visits": 10,
         "hours": 13.4,
-        "checked": 1122
+        "checked": 1122,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 10,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -5057,7 +8120,16 @@
         "location": "Monaro Highway (Road Works)",
         "visits": 9,
         "hours": 14.6,
-        "checked": 16222
+        "checked": 16222,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 9,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -5074,7 +8146,16 @@
         "location": "Cossington Smith Crescent",
         "visits": 9,
         "hours": 9.99,
-        "checked": 463
+        "checked": 463,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 9,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -5091,7 +8172,16 @@
         "location": "Oaks Estate Road",
         "visits": 8,
         "hours": 9.65,
-        "checked": 4971
+        "checked": 4971,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 8,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Night",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -5108,7 +8198,16 @@
         "location": "Paperbark Street",
         "visits": 8,
         "hours": 9.22,
-        "checked": 227
+        "checked": 227,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 8,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -5125,7 +8224,16 @@
         "location": "McCormack Street",
         "visits": 8,
         "hours": 10.09,
-        "checked": 321
+        "checked": 321,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 8,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -5142,7 +8250,16 @@
         "location": "Gilmore Crescent",
         "visits": 6,
         "hours": 7.9,
-        "checked": 1398
+        "checked": 1398,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 6,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -5159,7 +8276,16 @@
         "location": "Jansz Crescent",
         "visits": 5,
         "hours": 6.12,
-        "checked": 525
+        "checked": 525,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 5,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -5176,7 +8302,16 @@
         "location": "Throssell Street",
         "visits": 5,
         "hours": 6.18,
-        "checked": 552
+        "checked": 552,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 5,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -5193,7 +8328,16 @@
         "location": "Castley Circuit",
         "visits": 4,
         "hours": 4.23,
-        "checked": 125
+        "checked": 125,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 4,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Rainy",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -5210,7 +8354,16 @@
         "location": "Uriarra Road",
         "visits": 3,
         "hours": 3.83,
-        "checked": 124
+        "checked": 124,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 3,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -5227,7 +8380,16 @@
         "location": "Coppins Crossing Road",
         "visits": 2,
         "hours": 2.83,
-        "checked": 1033
+        "checked": 1033,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 2,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -5244,7 +8406,16 @@
         "location": "Jennings Street",
         "visits": 2,
         "hours": 2.66,
-        "checked": 29
+        "checked": 29,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 2,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Late Night"
       },
       "geometry": {
         "type": "Point",
@@ -5261,7 +8432,16 @@
         "location": "Don Dunstan Drive",
         "visits": 1,
         "hours": 1.33,
-        "checked": 21
+        "checked": 21,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Evening"
       },
       "geometry": {
         "type": "Point",
@@ -5278,7 +8458,16 @@
         "location": "Gladstone Street",
         "visits": 1,
         "hours": 1.58,
-        "checked": 52
+        "checked": 52,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -5295,7 +8484,16 @@
         "location": "Majura Road",
         "visits": 1,
         "hours": 1.42,
-        "checked": 456
+        "checked": 456,
+        "data_type": "speed_camera",
+        "district": "ACT Central",
+        "region": "Australian Capital Territory",
+        "count": 1,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Morning"
       },
       "geometry": {
         "type": "Point",
@@ -5312,7 +8510,16 @@
         "location": "EGGLESTON CRESCENT",
         "visits": 1,
         "hours": 0.85,
-        "checked": 299
+        "checked": 299,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",
@@ -5329,7 +8536,16 @@
         "location": "Empire Circuit",
         "visits": 1,
         "hours": 1.17,
-        "checked": 412
+        "checked": 412,
+        "data_type": "speed_camera",
+        "district": "ACT South",
+        "region": "Australian Capital Territory",
+        "count": 1,
+        "intensity_category": "Very Low",
+        "frequency": "Rare",
+        "weather": "Dry",
+        "time_of_day": "Day",
+        "time_period": "Afternoon"
       },
       "geometry": {
         "type": "Point",

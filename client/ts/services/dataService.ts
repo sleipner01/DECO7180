@@ -1,5 +1,9 @@
 import { LocalStorageCache } from "../utils/cache";
-import { GeoJSONFeatureCollection, CSVHeatmapDataPoint } from "../types";
+import {
+	GeoJSONFeatureCollection,
+	CSVHeatmapDataPoint,
+	GeoJSONData,
+} from "../types";
 import Papa from "papaparse";
 
 // 1 hour stale time
@@ -18,12 +22,8 @@ export class DataService {
 		this.showLoading(true);
 
 		try {
-			// Try to get data from cache
-			const cachedData = LocalStorageCache.get<GeoJSONFeatureCollection>({
-				key: cacheKey,
-				staleTime,
-			});
-
+			// Check if we have valid cached data
+			const cachedData = this.getFromCache(cacheKey);
 			if (cachedData) {
 				console.log("Using cached data");
 				return cachedData;
@@ -58,10 +58,13 @@ export class DataService {
 				data = this.parseCSVToGeoJSON(csvText);
 			}
 
-			// Cache the result
-			LocalStorageCache.set({ key: cacheKey, staleTime }, data);
+			// Clean the data
+			const cleanedData = this.cleanData(data);
 
-			return data;
+			// Cache the data
+			this.saveToCache(cacheKey, cleanedData, staleTime);
+
+			return cleanedData;
 		} catch (error) {
 			this.showError(
 				`Failed to load data: ${
@@ -73,6 +76,67 @@ export class DataService {
 			// Hide loading overlay
 			this.showLoading(false);
 		}
+	}
+
+	private static getFromCache(key: string): GeoJSONData | null {
+		try {
+			const item = localStorage.getItem(key);
+			if (!item) return null;
+
+			const { data, expiry } = JSON.parse(item);
+
+			if (Date.now() > expiry) {
+				localStorage.removeItem(key);
+				return null;
+			}
+
+			return data;
+		} catch (error) {
+			console.error("Error retrieving from cache:", error);
+			return null;
+		}
+	}
+
+	private static saveToCache(
+		key: string,
+		data: GeoJSONData,
+		expiryTime: number
+	): void {
+		try {
+			const item = {
+				data,
+				expiry: Date.now() + expiryTime,
+			};
+
+			localStorage.setItem(key, JSON.stringify(item));
+		} catch (error) {
+			console.error("Error saving to cache:", error);
+			// If there's an error (like quotas), just continue without caching
+		}
+	}
+
+	private static cleanData(data: GeoJSONData): GeoJSONData {
+		// Filter out features with missing coordinates or properties
+		const validFeatures = data.features.filter((feature) => {
+			if (!feature.geometry) return false;
+
+			// Check if the geometry is a GeometryCollection (which doesn't have coordinates)
+			if (feature.geometry.type === "GeometryCollection") return false;
+
+			// Now TypeScript knows this is a geometry with coordinates
+			const coords = feature.geometry.coordinates;
+			if (!Array.isArray(coords) || coords.length < 2) return false;
+
+			// Check for valid coordinates (some entries might have empty arrays)
+			if (coords[0] === null || coords[1] === null) return false;
+
+			return true;
+		});
+
+		return {
+			type: "FeatureCollection",
+			features: validFeatures,
+		};
 	}
 
 	private static parseCSVToGeoJSON(csvData: string): GeoJSONFeatureCollection {

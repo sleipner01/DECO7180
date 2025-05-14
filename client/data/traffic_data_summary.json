@@ -1,0 +1,111 @@
+{
+  "total_points": 329,
+  "data_types": {
+    "infringement": 15,
+    "speed_camera": 314
+  },
+  "regions": 2,
+  "districts": 18,
+  "region_stats": [
+    {
+      "region": "Australian Capital Territory",
+      "data_type": "speed_camera",
+      "count": 83486,
+      "visits": 83486,
+      "num_districts": 3
+    },
+    {
+      "region": "Queensland",
+      "data_type": "infringement",
+      "count": 70102,
+      "visits": 0,
+      "num_districts": 15
+    }
+  ],
+  "weather_stats": [
+    {
+      "weather": "Dry",
+      "data_type": "infringement",
+      "count": 9
+    },
+    {
+      "weather": "Dry",
+      "data_type": "speed_camera",
+      "count": 254
+    },
+    {
+      "weather": "Rainy",
+      "data_type": "infringement",
+      "count": 6
+    },
+    {
+      "weather": "Rainy",
+      "data_type": "speed_camera",
+      "count": 60
+    }
+  ],
+  "time_stats": [
+    {
+      "time_of_day": "Day",
+      "data_type": "infringement",
+      "count": 9
+    },
+    {
+      "time_of_day": "Day",
+      "data_type": "speed_camera",
+      "count": 225
+    },
+    {
+      "time_of_day": "Night",
+      "data_type": "infringement",
+      "count": 6
+    },
+    {
+      "time_of_day": "Night",
+      "data_type": "speed_camera",
+      "count": 89
+    }
+  ],
+  "period_stats": [
+    {
+      "time_period": "Afternoon",
+      "data_type": "infringement",
+      "count": 5
+    },
+    {
+      "time_period": "Afternoon",
+      "data_type": "speed_camera",
+      "count": 85
+    },
+    {
+      "time_period": "Evening",
+      "data_type": "infringement",
+      "count": 2
+    },
+    {
+      "time_period": "Evening",
+      "data_type": "speed_camera",
+      "count": 52
+    },
+    {
+      "time_period": "Late Night",
+      "data_type": "infringement",
+      "count": 5
+    },
+    {
+      "time_period": "Late Night",
+      "data_type": "speed_camera",
+      "count": 101
+    },
+    {
+      "time_period": "Morning",
+      "data_type": "infringement",
+      "count": 3
+    },
+    {
+      "time_period": "Morning",
+      "data_type": "speed_camera",
+      "count": 76
+    }
+  ]
+}

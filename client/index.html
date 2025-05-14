@@ -94,8 +94,71 @@
 			aria-label="Interactive heatmap of traffic infringements across Australia"
 		></div>
 
+		<!-- Add this inside the map-controls section -->
 		<section id="map-controls" class="map-controls" tabindex="-1">
-			<!-- TODO: Any map controls will go here -->
+			<div class="filters-container">
+				<h3>Filters</h3>
+
+				<div class="filter-group">
+					<label for="intensity-filter">Intensity</label>
+					<select id="intensity-filter" aria-label="Filter by intensity">
+						<option value="all">All</option>
+						<option value="Very Low">Very Low</option>
+						<option value="Low">Low</option>
+						<option value="Medium">Medium</option>
+						<option value="High">High</option>
+						<option value="Very High">Very High</option>
+					</select>
+				</div>
+
+				<div class="filter-group">
+					<label for="district-filter">District</label>
+					<select id="district-filter" aria-label="Filter by district">
+						<option value="all">All</option>
+						<!-- Districts will be populated dynamically -->
+					</select>
+				</div>
+
+				<div class="filter-group">
+					<label for="frequency-filter">Frequency</label>
+					<select id="frequency-filter" aria-label="Filter by frequency">
+						<option value="all">All</option>
+						<option value="Rare">Rare</option>
+						<option value="Occasional">Occasional</option>
+						<option value="Regular">Regular</option>
+						<option value="Frequent">Frequent</option>
+						<option value="Very Frequent">Very Frequent</option>
+					</select>
+				</div>
+
+				<div class="filter-group">
+					<label for="time-period-filter">Time Period</label>
+					<select id="time-period-filter" aria-label="Filter by time period">
+						<option value="all">All</option>
+						<option value="Morning">Morning</option>
+						<option value="Afternoon">Afternoon</option>
+						<option value="Evening">Evening</option>
+						<option value="Late Night">Late Night</option>
+					</select>
+				</div>
+
+				<div class="filter-group">
+					<label for="weather-filter">Weather</label>
+					<select id="weather-filter" aria-label="Filter by weather">
+						<option value="all">All</option>
+						<option value="Dry">Dry</option>
+						<option value="Rainy">Rainy</option>
+					</select>
+				</div>
+
+				<button
+					id="reset-filters"
+					class="reset-button"
+					aria-label="Reset all filters"
+				>
+					Reset Filters
+				</button>
+			</div>
 		</section>
 
 		<script src="./js/script.js" type="module"></script>
