@@ -1,255 +1,5343 @@
 {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 100
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [151.2093, -33.8688]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 90
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [144.9631, -37.8136]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 80
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [153.0251, -27.4698]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 70
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [115.8605, -31.9505]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 85
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [138.6007, -34.9285]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 75
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [149.13, -35.2809]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 65
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [147.3272, -42.8821]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 60
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [130.8456, -12.4634]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 55
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [146.8169, -19.259]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 50
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [133.8807, -23.7]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 45
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [150.3114, -33.7139]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 40
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [151.7817, -32.9283]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 35
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [150.8931, -34.4278]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 30
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [143.8503, -37.5622]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 25
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [145.7781, -16.9186]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 20
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [121.4667, -30.7333]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 15
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [122.2304, -17.9644]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 10
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [139.4927, -20.7256]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 5
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [152.843, -25.2867]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 8
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [135.8613, -34.7281]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 12
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [144.3617, -38.1499]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 18
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [146.888, -36.1166]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 22
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [149.5825, -33.4192]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 28
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [153.4, -28.0167]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"intensity": 32
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [153.0667, -26.65]
-			}
-		}
-	]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 100.0,
+        "location": "Monaro Highway",
+        "visits": 3774,
+        "hours": 5040.99,
+        "checked": 4421729
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1696805,
+          -35.315856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 62.97376093294461,
+        "location": "Athllon Drive",
+        "visits": 2377,
+        "hours": 3184.7000000000003,
+        "checked": 1880615
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0658528,
+          -35.4201571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 51.285449244632915,
+        "location": "Gungahlin Drive",
+        "visits": 1936,
+        "hours": 2512.57,
+        "checked": 2196939
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0881248,
+          -35.2589078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 51.09992048767559,
+        "location": "Belconnen Way",
+        "visits": 1929,
+        "hours": 2502.91,
+        "checked": 1451788
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0552689,
+          -35.2437067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 46.99178372647761,
+        "location": "Hindmarsh Drive",
+        "visits": 1774,
+        "hours": 2340.76,
+        "checked": 1552137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0462809,
+          -35.341428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 44.367877020938245,
+        "location": "Canberra Avenue",
+        "visits": 1675,
+        "hours": 2218.38,
+        "checked": 1299611
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1317113,
+          -35.3168776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 39.570633448184466,
+        "location": "Majura Parkway",
+        "visits": 1494,
+        "hours": 1958.8300000000002,
+        "checked": 1606654
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1780298,
+          -35.29825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 39.570633448184466,
+        "location": "Yamba Drive",
+        "visits": 1494,
+        "hours": 1938.47,
+        "checked": 848083
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1059882,
+          -35.3631823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 39.14656771799629,
+        "location": "Ginninderra Drive",
+        "visits": 1478,
+        "hours": 1933.8600000000001,
+        "checked": 965716
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0801823,
+          -35.2310042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 36.39014047177312,
+        "location": "Northbourne Avenue",
+        "visits": 1374,
+        "hours": 1796.94,
+        "checked": 1247971
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1295235,
+          -35.2754679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 35.32997614630268,
+        "location": "Drakeford Drive",
+        "visits": 1334,
+        "hours": 1795.8600000000001,
+        "checked": 1273779
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.07254,
+          -35.3969774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 34.852902199840976,
+        "location": "William Hovell Drive",
+        "visits": 1316,
+        "hours": 1654.07,
+        "checked": 1506221
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0779658,
+          -35.2769542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 34.58786111847336,
+        "location": "Erindale Drive",
+        "visits": 1306,
+        "hours": 1737.7,
+        "checked": 994996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1055925,
+          -35.3939596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 26.689636893718525,
+        "location": "Fairbairn Avenue",
+        "visits": 1008,
+        "hours": 1351.04,
+        "checked": 1466315
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1808404,
+          -35.2993701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 26.05353829843626,
+        "location": "Horse Park Drive",
+        "visits": 984,
+        "hours": 1279.53,
+        "checked": 1350385
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1257128,
+          -35.1585178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 24.648820567187915,
+        "location": "Barton Highway",
+        "visits": 931,
+        "hours": 1190.53,
+        "checked": 853485
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0766794,
+          -35.1853237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 24.56930824277763,
+        "location": "Parkes Way",
+        "visits": 928,
+        "hours": 1234.31,
+        "checked": 1399156
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0810118,
+          -35.2873067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 24.463291810230587,
+        "location": "Launceston Street",
+        "visits": 924,
+        "hours": 1212.08,
+        "checked": 457578
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0738895,
+          -35.3450879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 24.039226080042408,
+        "location": "Adelaide Avenue",
+        "visits": 908,
+        "hours": 1224.3,
+        "checked": 1376747
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.12175,
+          -35.3102635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 23.774184998674794,
+        "location": "Tuggeranong Parkway",
+        "visits": 898,
+        "hours": 1189.78,
+        "checked": 1148202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0574017,
+          -35.3721685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 22.157434402332363,
+        "location": "Southern Cross Drive",
+        "visits": 837,
+        "hours": 1110.05,
+        "checked": 407875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0253671,
+          -35.2206614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 21.91889742910151,
+        "location": "Melrose Drive",
+        "visits": 828,
+        "hours": 1107.05,
+        "checked": 445822
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0877453,
+          -35.3568157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 19.48051948051948,
+        "location": "Commonwealth Avenue",
+        "visits": 736,
+        "hours": 972.6700000000001,
+        "checked": 989665
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.127706,
+          -35.2872074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 19.347998939835673,
+        "location": "College Street",
+        "visits": 731,
+        "hours": 941.78,
+        "checked": 330852
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0818486,
+          -35.242372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 19.21547839915187,
+        "location": "Bowen Drive",
+        "visits": 726,
+        "hours": 990.11,
+        "checked": 576532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1392932,
+          -35.3067468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 18.208322289954943,
+        "location": "Pialligo Avenue",
+        "visits": 688,
+        "hours": 912.54,
+        "checked": 1061663
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1897165,
+          -35.3185774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 17.73124834349324,
+        "location": "Tharwa Drive",
+        "visits": 670,
+        "hours": 901.5400000000001,
+        "checked": 620654
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1227374,
+          -35.4398533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 17.09514974821097,
+        "location": "Cotter Road",
+        "visits": 646,
+        "hours": 861.72,
+        "checked": 659150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9540221,
+          -35.3251711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 16.936125099390406,
+        "location": "Limestone Avenue",
+        "visits": 640,
+        "hours": 826.65,
+        "checked": 461686
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1424896,
+          -35.2743079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 16.830108666843362,
+        "location": "Mugga Way",
+        "visits": 636,
+        "hours": 834.5,
+        "checked": 312311
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1269109,
+          -35.3457045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 16.538563477338986,
+        "location": "Namatjira Drive",
+        "visits": 625,
+        "hours": 820.99,
+        "checked": 407278
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.057127,
+          -35.3420127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 16.16750596342433,
+        "location": "Caswell Drive",
+        "visits": 611,
+        "hours": 797.16,
+        "checked": 1002963
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0882989,
+          -35.2720744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 15.769944341372913,
+        "location": "Streeton Drive",
+        "visits": 596,
+        "hours": 800.13,
+        "checked": 306607
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0533422,
+          -35.3263822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 15.637423800689106,
+        "location": "Beasley Street",
+        "visits": 591,
+        "hours": 795.79,
+        "checked": 283425
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0873736,
+          -35.3736555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 15.345878611184734,
+        "location": "John Gorton Drive",
+        "visits": 580,
+        "hours": 771.07,
+        "checked": 341855
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0350587,
+          -35.318044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 15.107341637953883,
+        "location": "Mugga Lane",
+        "visits": 571,
+        "hours": 764.8,
+        "checked": 347542
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.136782,
+          -35.3905743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 14.974821097270077,
+        "location": "Jerrabomberra Avenue",
+        "visits": 566,
+        "hours": 745.37,
+        "checked": 252896
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1529722,
+          -35.3414639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 14.84230055658627,
+        "location": "Kingsford Smith Drive",
+        "visits": 561,
+        "hours": 739.3100000000001,
+        "checked": 325896
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0449953,
+          -35.2158954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 14.444738934534852,
+        "location": "Federal Highway",
+        "visits": 546,
+        "hours": 733.4,
+        "checked": 295361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1892927,
+          -35.2116112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 13.94116087993639,
+        "location": "Ashley Drive",
+        "visits": 527,
+        "hours": 692.17,
+        "checked": 486565
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1017757,
+          -35.4048422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 13.755632122979062,
+        "location": "Yarra Glen",
+        "visits": 520,
+        "hours": 679.48,
+        "checked": 414031
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0953757,
+          -35.3142828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 13.623111582295255,
+        "location": "Tillyard Drive",
+        "visits": 515,
+        "hours": 666.6,
+        "checked": 297732
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0435973,
+          -35.2000502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 13.252054068380598,
+        "location": "Mouat Street",
+        "visits": 501,
+        "hours": 670.87,
+        "checked": 772664
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1298918,
+          -35.2477993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 12.880996554465943,
+        "location": "Majura Avenue",
+        "visits": 487,
+        "hours": 631.97,
+        "checked": 291149
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1398494,
+          -35.2572261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 12.82798833819242,
+        "location": "Kings Avenue",
+        "visits": 485,
+        "hours": 654.39,
+        "checked": 434043
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1375228,
+          -35.3031889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 12.483434932414525,
+        "location": "Blamey Crescent",
+        "visits": 472,
+        "hours": 621.36,
+        "checked": 185279
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1533389,
+          -35.2889756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 12.40392260800424,
+        "location": "Phillip Avenue",
+        "visits": 469,
+        "hours": 614.49,
+        "checked": 283321
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1441862,
+          -35.2365484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 12.324410283593958,
+        "location": "Sternberg Crescent",
+        "visits": 466,
+        "hours": 618.57,
+        "checked": 136159
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1029105,
+          -35.4021971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 12.324410283593958,
+        "location": "Carruthers Street",
+        "visits": 466,
+        "hours": 611.59,
+        "checked": 144610
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0792743,
+          -35.3319465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 12.297906175457197,
+        "location": "Gundaroo Drive",
+        "visits": 465,
+        "hours": 603.24,
+        "checked": 440770
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0839947,
+          -35.2165659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 11.873840445269016,
+        "location": "Bindubi Street",
+        "visits": 449,
+        "hours": 574.46,
+        "checked": 304891
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0743076,
+          -35.2538793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 11.847336337132255,
+        "location": "Sutton Road",
+        "visits": 448,
+        "hours": 588.88,
+        "checked": 135472
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2590056,
+          -35.2856445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 11.794328120858733,
+        "location": "Wentworth Avenue",
+        "visits": 446,
+        "hours": 595.34,
+        "checked": 243230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1428365,
+          -35.3116263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 11.767824012721972,
+        "location": "Baldwin Drive",
+        "visits": 445,
+        "hours": 594.52,
+        "checked": 319484
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0924145,
+          -35.2335532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 11.661807580174926,
+        "location": "Kings Highway",
+        "visits": 441,
+        "hours": 571.5600000000001,
+        "checked": 307907
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.3819071,
+          -35.3216074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 11.396766498807315,
+        "location": "Coulter Drive",
+        "visits": 431,
+        "hours": 555.1800000000001,
+        "checked": 295463
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.056211,
+          -35.246239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 11.025708984892658,
+        "location": "The Valley Avenue",
+        "visits": 417,
+        "hours": 537.08,
+        "checked": 266581
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.133148,
+          -35.1874568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.787172011661808,
+        "location": "Kelleway Avenue",
+        "visits": 408,
+        "hours": 525.66,
+        "checked": 179881
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1047388,
+          -35.1794699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.522130930294196,
+        "location": "Chewings Street",
+        "visits": 398,
+        "hours": 533.83,
+        "checked": 125481
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0475274,
+          -35.2331162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.495626822157435,
+        "location": "Denison Street",
+        "visits": 397,
+        "hours": 516.92,
+        "checked": 219172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0924075,
+          -35.3248727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.469122714020672,
+        "location": "Copland Drive",
+        "visits": 396,
+        "hours": 520.62,
+        "checked": 225788
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0541729,
+          -35.2188389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.41611449774715,
+        "location": "Isabella Drive",
+        "visits": 394,
+        "hours": 523.66,
+        "checked": 267355
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1243513,
+          -35.4125329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.38961038961039,
+        "location": "William Hovell drive",
+        "visits": 393,
+        "hours": 533.24,
+        "checked": 457712
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0779658,
+          -35.2769542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.336602173336868,
+        "location": "Morshead Drive",
+        "visits": 391,
+        "hours": 528.0600000000001,
+        "checked": 917249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1648118,
+          -35.3038489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 10.257089848926583,
+        "location": "Long Gully Road",
+        "visits": 388,
+        "hours": 526.3,
+        "checked": 455009
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1355807,
+          -35.3899952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.72700768619136,
+        "location": "Antill Street",
+        "visits": 368,
+        "hours": 479.7,
+        "checked": 172958
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1578546,
+          -35.2457811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.673999469917836,
+        "location": "Sulwood Drive",
+        "visits": 366,
+        "hours": 496.08,
+        "checked": 296591
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0956205,
+          -35.3852767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.673999469917836,
+        "location": "Kent Street",
+        "visits": 366,
+        "hours": 473.63,
+        "checked": 287408
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0980585,
+          -35.3212479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.647495361781075,
+        "location": "La Perouse Street",
+        "visits": 365,
+        "hours": 480.59000000000003,
+        "checked": 154137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1250231,
+          -35.3391717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.620991253644315,
+        "location": "Knoke Avenue",
+        "visits": 364,
+        "hours": 483.92,
+        "checked": 69270
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0859069,
+          -35.4660188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.382454280413464,
+        "location": "Florey Drive",
+        "visits": 355,
+        "hours": 465.02000000000004,
+        "checked": 250781
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0279989,
+          -35.2041955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.302941956003181,
+        "location": "Bugden Avenue",
+        "visits": 352,
+        "hours": 466.83,
+        "checked": 107931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1031278,
+          -35.4139954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 9.302941956003181,
+        "location": "Starke Street",
+        "visits": 352,
+        "hours": 451.05,
+        "checked": 92262
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.031101,
+          -35.2243253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.878876225815,
+        "location": "Murranji Street",
+        "visits": 336,
+        "hours": 441.18,
+        "checked": 54773
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0396021,
+          -35.2474536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.772859793267957,
+        "location": "Brigalow Street",
+        "visits": 332,
+        "hours": 421.55,
+        "checked": 164583
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1206917,
+          -35.2553998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.772859793267957,
+        "location": "Fairfax Street",
+        "visits": 332,
+        "hours": 451.32,
+        "checked": 291387
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1130418,
+          -35.2592467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.64033925258415,
+        "location": "Ellerston Avenue",
+        "visits": 327,
+        "hours": 436.7,
+        "checked": 96291
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1036243,
+          -35.4285672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.42830638749006,
+        "location": "Kootara Crescent",
+        "visits": 319,
+        "hours": 414.08,
+        "checked": 53082
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1525619,
+          -35.3313588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.295785846806256,
+        "location": "Cowper Street",
+        "visits": 314,
+        "hours": 409.72,
+        "checked": 235175
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1400309,
+          -35.2574505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.216273522395971,
+        "location": "Heagney Crescent",
+        "visits": 311,
+        "hours": 409.75,
+        "checked": 89324
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1332668,
+          -35.4244508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.057248873575404,
+        "location": "Perry Drive",
+        "visits": 305,
+        "hours": 394.21000000000004,
+        "checked": 66782
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.043959,
+          -35.3590222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.030744765438643,
+        "location": "Ellenborough Street",
+        "visits": 304,
+        "hours": 401.46000000000004,
+        "checked": 228539
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1115211,
+          -35.230137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 8.004240657301882,
+        "location": "Marconi Crescent",
+        "visits": 303,
+        "hours": 408.01,
+        "checked": 109740
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0652602,
+          -35.382844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.845216008481315,
+        "location": "Isabella drive",
+        "visits": 297,
+        "hours": 391.04,
+        "checked": 259172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1243513,
+          -35.4125329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.845216008481315,
+        "location": "Donaldson Street",
+        "visits": 297,
+        "hours": 381.44,
+        "checked": 62133
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1409189,
+          -35.2736108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.792207792207792,
+        "location": "Oodgeroo Avenue",
+        "visits": 295,
+        "hours": 383.78000000000003,
+        "checked": 100525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1381975,
+          -35.2017246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.686191359660747,
+        "location": "Marr Street",
+        "visits": 291,
+        "hours": 382.93,
+        "checked": 67636
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0885272,
+          -35.3636514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.580174927113703,
+        "location": "Woodcock Drive",
+        "visits": 287,
+        "hours": 379.94,
+        "checked": 151877
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0877561,
+          -35.4404872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.580174927113703,
+        "location": "Drake Brockman Drive",
+        "visits": 287,
+        "hours": 375.93,
+        "checked": 231646
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0122438,
+          -35.2309959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.394646170156374,
+        "location": "Badimara Street",
+        "visits": 280,
+        "hours": 368.01,
+        "checked": 82041
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0677606,
+          -35.3492254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.394646170156374,
+        "location": "Johnson Drive",
+        "visits": 280,
+        "hours": 371.34000000000003,
+        "checked": 196902
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1185249,
+          -35.4339322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.368142062019613,
+        "location": "Bennelong Crescent",
+        "visits": 279,
+        "hours": 351.68,
+        "checked": 26264
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0596311,
+          -35.2531568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.31513384574609,
+        "location": "Lawrence Wackett Crescent",
+        "visits": 277,
+        "hours": 362.14,
+        "checked": 48368
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.124027,
+          -35.4494271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.209117413199046,
+        "location": "Boddington Crescent",
+        "visits": 273,
+        "hours": 358.96000000000004,
+        "checked": 154090
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0558577,
+          -35.3792636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.103100980652001,
+        "location": "Goyder Street",
+        "visits": 269,
+        "hours": 361.97,
+        "checked": 82671
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1493242,
+          -35.3377305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 7.023588656241717,
+        "location": "Flemington Road",
+        "visits": 266,
+        "hours": 343.8,
+        "checked": 130599
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1497829,
+          -35.1990283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.785051683010867,
+        "location": "Groom Street",
+        "visits": 257,
+        "hours": 337.86,
+        "checked": 45822
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.088892,
+          -35.3278111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.679035250463822,
+        "location": "Ainsworth Street",
+        "visits": 253,
+        "hours": 332.59000000000003,
+        "checked": 53606
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0971717,
+          -35.3587008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.626027034190299,
+        "location": "Bindel Street",
+        "visits": 251,
+        "hours": 322.48,
+        "checked": 81137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.07507,
+          -35.2536772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.599522926053538,
+        "location": "Hoskins Street",
+        "visits": 250,
+        "hours": 331.18,
+        "checked": 116889
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1386769,
+          -35.2089927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.41399416909621,
+        "location": "Monaro Highway - Road Works",
+        "visits": 243,
+        "hours": 329.42,
+        "checked": 391439
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.238349,
+          -36.43119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.307977736549165,
+        "location": "Redfern Street",
+        "visits": 239,
+        "hours": 312.86,
+        "checked": 118698
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0744822,
+          -35.2536375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.228465412138881,
+        "location": "Mulley Street",
+        "visits": 236,
+        "hours": 299.19,
+        "checked": 49013
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.048572,
+          -35.3310028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.175457195865359,
+        "location": "Barry Drive",
+        "visits": 234,
+        "hours": 309.28000000000003,
+        "checked": 153439
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1168227,
+          -35.2720264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.0429366551815535,
+        "location": "National Circuit",
+        "visits": 229,
+        "hours": 290.90000000000003,
+        "checked": 47233
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1327143,
+          -35.3051594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.0429366551815535,
+        "location": "Beaurepaire Crescent",
+        "visits": 229,
+        "hours": 316.21000000000004,
+        "checked": 56745
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.012972,
+          -35.2207973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 6.0429366551815535,
+        "location": "Lady Denman Drive",
+        "visits": 229,
+        "hours": 308.89,
+        "checked": 141019
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.085225,
+          -35.2862254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.989928438908031,
+        "location": "Hambidge Crescent",
+        "visits": 227,
+        "hours": 295.40000000000003,
+        "checked": 38992
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1308633,
+          -35.4143931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.96342433077127,
+        "location": "Mcbryde Crescent",
+        "visits": 226,
+        "hours": 297.81,
+        "checked": 61802
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0844869,
+          -35.406103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.883912006360986,
+        "location": "Shumack Street",
+        "visits": 223,
+        "hours": 298.18,
+        "checked": 28784
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0497476,
+          -35.2532038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.777895573813941,
+        "location": "State Circle",
+        "visits": 219,
+        "hours": 291.11,
+        "checked": 136902
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1289595,
+          -35.3060513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.75139146567718,
+        "location": "Captain Cook Crescent",
+        "visits": 218,
+        "hours": 286.1,
+        "checked": 51759
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.134519,
+          -35.3223835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.75139146567718,
+        "location": "Ross Smith Crescent",
+        "visits": 218,
+        "hours": 276.08,
+        "checked": 31284
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0449555,
+          -35.2300892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.6983832494036575,
+        "location": "Knox Street",
+        "visits": 216,
+        "hours": 271.78000000000003,
+        "checked": 33454
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.156097,
+          -35.239842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.6983832494036575,
+        "location": "Williamson Street",
+        "visits": 216,
+        "hours": 292.49,
+        "checked": 29622
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0456769,
+          -35.3364102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.512854492446329,
+        "location": "Officer Crescent",
+        "visits": 209,
+        "hours": 275.89,
+        "checked": 66653
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1482462,
+          -35.2579743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.459846276172807,
+        "location": "Bandjalong Crescent",
+        "visits": 207,
+        "hours": 258.93,
+        "checked": 50157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0738887,
+          -35.2607103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.433342168036045,
+        "location": "Burrinjuck Crecent",
+        "visits": 206,
+        "hours": 273.86,
+        "checked": 34082
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0376589,
+          -35.3394032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.221309302941956,
+        "location": "Hilder Street",
+        "visits": 198,
+        "hours": 265.92,
+        "checked": 30531
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0529995,
+          -35.3352075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.168301086668434,
+        "location": "Lanyon Drive",
+        "visits": 196,
+        "hours": 269.88,
+        "checked": 263737
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1816829,
+          -35.3789253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.115292870394911,
+        "location": "Kosciuszko Avenue",
+        "visits": 194,
+        "hours": 254.89000000000001,
+        "checked": 65023
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1278578,
+          -35.1933454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 5.035780545984627,
+        "location": "O'Halloran Circuit",
+        "visits": 191,
+        "hours": 257.83,
+        "checked": 52868
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0674503,
+          -35.39316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.9297641134375825,
+        "location": "Mawson Drive",
+        "visits": 187,
+        "hours": 251.57,
+        "checked": 100306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0959784,
+          -35.363451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.823747680890538,
+        "location": "Springvale Drive",
+        "visits": 183,
+        "hours": 242.45000000000002,
+        "checked": 93746
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0473097,
+          -35.257622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.823747680890538,
+        "location": "Anzac Parade",
+        "visits": 183,
+        "hours": 251.31,
+        "checked": 101015
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1440296,
+          -35.2857725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.770739464617016,
+        "location": "Overall Avenue",
+        "visits": 181,
+        "hours": 244.24,
+        "checked": 60036
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0906097,
+          -35.1749622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.638218923933209,
+        "location": "Anthony Rolfe Avenue",
+        "visits": 176,
+        "hours": 231.49,
+        "checked": 54019
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1549428,
+          -35.1851302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.558706599522926,
+        "location": "Wheeler Crescent",
+        "visits": 173,
+        "hours": 220.46,
+        "checked": 48111
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0797055,
+          -35.4025639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.5322024913861645,
+        "location": "MacGregor  Street",
+        "visits": 172,
+        "hours": 237.05,
+        "checked": 47875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1027742,
+          -35.3167721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.373177842565598,
+        "location": "Alberga Street",
+        "visits": 166,
+        "hours": 205.76,
+        "checked": 25906
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1006673,
+          -35.2364857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.320169626292075,
+        "location": "Owen Dixon Drive",
+        "visits": 164,
+        "hours": 207.55,
+        "checked": 61685
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0868923,
+          -35.2133879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.320169626292075,
+        "location": "Maribyrnong Avenue",
+        "visits": 164,
+        "hours": 209.02,
+        "checked": 81783
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1012911,
+          -35.2199869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.320169626292075,
+        "location": "Capital Circle",
+        "visits": 164,
+        "hours": 220.75,
+        "checked": 152272
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1266154,
+          -35.3057781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.293665518155314,
+        "location": "Sturt Avenue",
+        "visits": 163,
+        "hours": 219.32,
+        "checked": 57220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1481013,
+          -35.3291548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.187649085608269,
+        "location": "Heidelberg Street",
+        "visits": 159,
+        "hours": 203.64000000000001,
+        "checked": 43382
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0964152,
+          -35.4575539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.161144977471508,
+        "location": "Dixon Drive",
+        "visits": 158,
+        "hours": 208.13,
+        "checked": 41401
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0534744,
+          -35.3288532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.1346408693347465,
+        "location": "William Webb Drive",
+        "visits": 157,
+        "hours": 204.1,
+        "checked": 78231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0706192,
+          -35.2224432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.081632653061225,
+        "location": "Castieau Street",
+        "visits": 155,
+        "hours": 204.70000000000002,
+        "checked": 23887
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0298992,
+          -35.2302464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.081632653061225,
+        "location": "Well Station Drive",
+        "visits": 155,
+        "hours": 196.05,
+        "checked": 82601
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1643164,
+          -35.2022543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.055128544924464,
+        "location": "Macarthur Avenue",
+        "visits": 154,
+        "hours": 199.52,
+        "checked": 55970
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1183718,
+          -35.2592938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.002120328650941,
+        "location": "Goodwin Street",
+        "visits": 152,
+        "hours": 194.58,
+        "checked": 24947
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.13007,
+          -35.2543004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 4.002120328650941,
+        "location": "Blackwood Terrace",
+        "visits": 152,
+        "hours": 196.96,
+        "checked": 21313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0442317,
+          -35.3368892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.9491121123774184,
+        "location": "Chauvel Street",
+        "visits": 150,
+        "hours": 195.65,
+        "checked": 19902
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1546549,
+          -35.290512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.9226080042406575,
+        "location": "Railway Street",
+        "visits": 149,
+        "hours": 200.91,
+        "checked": 66089
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2249733,
+          -35.341608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.869599787967135,
+        "location": "Box Hill Avenue",
+        "visits": 147,
+        "hours": 201.94,
+        "checked": 12193
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0949358,
+          -35.4640002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.8430956798303737,
+        "location": "Abena Avenue",
+        "visits": 146,
+        "hours": 197.09,
+        "checked": 67613
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.101913,
+          -35.1997717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.8165915716936123,
+        "location": "Horse Park Drive Road Works",
+        "visits": 145,
+        "hours": 190.3,
+        "checked": 136830
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1257128,
+          -35.1585178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.7900874635568513,
+        "location": "Ebden Street",
+        "visits": 144,
+        "hours": 191.81,
+        "checked": 58743
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1469587,
+          -35.2638924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.604558706599523,
+        "location": "Melbourne Avenue",
+        "visits": 137,
+        "hours": 179.99,
+        "checked": 17646
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1199758,
+          -35.3135035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.578054598462762,
+        "location": "Casey Crescent",
+        "visits": 136,
+        "hours": 189.23000000000002,
+        "checked": 23991
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1114792,
+          -35.4357464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.472038165915717,
+        "location": "Lambrigg Street",
+        "visits": 132,
+        "hours": 172.32,
+        "checked": 18047
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1061353,
+          -35.378904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.3925258415054333,
+        "location": "Erldunda Circuit",
+        "visits": 129,
+        "hours": 150.21,
+        "checked": 11843
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0356629,
+          -35.2510423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.3925258415054333,
+        "location": "Kerrigan Street",
+        "visits": 129,
+        "hours": 165.37,
+        "checked": 40629
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0282144,
+          -35.1912156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.3925258415054333,
+        "location": "Lhotsky Street",
+        "visits": 129,
+        "hours": 173.49,
+        "checked": 45631
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0273725,
+          -35.2006287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.366021733368672,
+        "location": "Ashburton Cct",
+        "visits": 128,
+        "hours": 156.8,
+        "checked": 15919
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1134335,
+          -35.2250309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.339517625231911,
+        "location": "Theodore Street",
+        "visits": 127,
+        "hours": 168.46,
+        "checked": 70968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0807682,
+          -35.3309246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.2865094089583886,
+        "location": "Haydon Drive",
+        "visits": 125,
+        "hours": 152.56,
+        "checked": 64475
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.090703,
+          -35.2429475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.2865094089583886,
+        "location": "McInnes Street",
+        "visits": 125,
+        "hours": 168.23000000000002,
+        "checked": 22201
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0624201,
+          -35.3464233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.260005300821627,
+        "location": "Flemington Road (ROADWORKS)",
+        "visits": 124,
+        "hours": 163.46,
+        "checked": 43154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1497829,
+          -35.1990283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.260005300821627,
+        "location": "Monaro Crescent",
+        "visits": 124,
+        "hours": 167.43,
+        "checked": 30911
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1277361,
+          -35.3283096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.1539888682745825,
+        "location": "Outtrim Avenue",
+        "visits": 120,
+        "hours": 159.88,
+        "checked": 46157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1045159,
+          -35.4361805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.1539888682745825,
+        "location": " Namatjira Drive",
+        "visits": 120,
+        "hours": 161.8,
+        "checked": 66333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.057127,
+          -35.3420127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.1274847601378215,
+        "location": "Warragamba Avenue",
+        "visits": 119,
+        "hours": 153.43,
+        "checked": 13042
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0269503,
+          -35.3315154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.1274847601378215,
+        "location": "Summerland Circuit",
+        "visits": 119,
+        "hours": 156.54,
+        "checked": 21838
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0709028,
+          -35.3912819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.074476543864299,
+        "location": "Chuculba Crescent",
+        "visits": 117,
+        "hours": 153.07,
+        "checked": 22592
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0888912,
+          -35.2090747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.0479724357275377,
+        "location": "Pockett Avenue",
+        "visits": 116,
+        "hours": 155.65,
+        "checked": 43347
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0940216,
+          -35.4646243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.0479724357275377,
+        "location": "Fremantle Drive",
+        "visits": 116,
+        "hours": 152.61,
+        "checked": 21966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0464775,
+          -35.3461796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 3.0214683275907768,
+        "location": "Carnegie Crescent",
+        "visits": 115,
+        "hours": 158.77,
+        "checked": 31261
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1437714,
+          -35.3340971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.9949642194540154,
+        "location": "Barnard Circuit",
+        "visits": 114,
+        "hours": 143.57,
+        "checked": 13979
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.037859,
+          -35.2274125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.9949642194540154,
+        "location": "Wilkins Street",
+        "visits": 114,
+        "hours": 151.38,
+        "checked": 31621
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0977363,
+          -35.3645893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.8889477869069706,
+        "location": "Darwinia Terrace",
+        "visits": 110,
+        "hours": 145.35,
+        "checked": 25052
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0409271,
+          -35.3537027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.862443678770209,
+        "location": "Mapleton Avenue",
+        "visits": 109,
+        "hours": 143.88,
+        "checked": 43123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1509706,
+          -35.1934334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.7299231380864035,
+        "location": "Wirraway Crescent",
+        "visits": 104,
+        "hours": 133.86,
+        "checked": 11886
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0362329,
+          -35.2312659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.676914921812881,
+        "location": "Ratcliffe Crescent",
+        "visits": 102,
+        "hours": 135.63,
+        "checked": 30467
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0550989,
+          -35.2306889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.676914921812881,
+        "location": "Dryandra Street",
+        "visits": 102,
+        "hours": 140.05,
+        "checked": 14705
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1135313,
+          -35.2517392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.6504108136761197,
+        "location": "Chippindall Cct",
+        "visits": 101,
+        "hours": 137.2,
+        "checked": 16367
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1211356,
+          -35.4498503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.5974025974025974,
+        "location": "Stonehaven Crescent",
+        "visits": 99,
+        "hours": 134.19,
+        "checked": 80067
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1089017,
+          -35.3178216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.5974025974025974,
+        "location": "Aikman Drive",
+        "visits": 99,
+        "hours": 128.08,
+        "checked": 59810
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0801747,
+          -35.2319094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.5708984892658364,
+        "location": "Telopea Park",
+        "visits": 98,
+        "hours": 131.26,
+        "checked": 31602
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1384936,
+          -35.3137366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.5708984892658364,
+        "location": "Osburn Drive",
+        "visits": 98,
+        "hours": 126.64,
+        "checked": 27719
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0188939,
+          -35.2158418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.5178902729923136,
+        "location": "Coyne Street",
+        "visits": 96,
+        "hours": 132.4,
+        "checked": 49894
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1281597,
+          -35.4092122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.5178902729923136,
+        "location": "Mulligans Flat Road",
+        "visits": 96,
+        "hours": 125.68,
+        "checked": 32145
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1384302,
+          -35.1668129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.5178902729923136,
+        "location": "Eyre Street",
+        "visits": 96,
+        "hours": 129.57,
+        "checked": 33797
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1404878,
+          -35.3181971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.4648820567187912,
+        "location": "Eggleston Crescent",
+        "visits": 94,
+        "hours": 124.61,
+        "checked": 41414
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0752959,
+          -35.3502316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.4648820567187912,
+        "location": "Kalgoorlie Crescent",
+        "visits": 94,
+        "hours": 126.61,
+        "checked": 13869
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0547916,
+          -35.3610124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.4383779485820303,
+        "location": "Nemarang Crescent",
+        "visits": 93,
+        "hours": 122.08,
+        "checked": 10134
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0679863,
+          -35.3568962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.411873840445269,
+        "location": "Drumston Street",
+        "visits": 92,
+        "hours": 123.93,
+        "checked": 19067
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0906806,
+          -35.4254101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.411873840445269,
+        "location": "Livingston Avenue",
+        "visits": 92,
+        "hours": 124.27000000000001,
+        "checked": 26877
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0854355,
+          -35.3844722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.3588656241717465,
+        "location": "Jim Pike Avenue",
+        "visits": 90,
+        "hours": 119.87,
+        "checked": 28068
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0812988,
+          -35.4508456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.305857407898224,
+        "location": "Miller Street",
+        "visits": 88,
+        "hours": 120.81,
+        "checked": 18165
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1153211,
+          -35.2589825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.305857407898224,
+        "location": "Arthur Circle",
+        "visits": 88,
+        "hours": 115.83,
+        "checked": 12453
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1248051,
+          -35.3228245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.279353299761463,
+        "location": "Burrinjuck Crescent",
+        "visits": 87,
+        "hours": 114.67,
+        "checked": 6866
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0376589,
+          -35.3394032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.279353299761463,
+        "location": "MacFarland Crescent",
+        "visits": 87,
+        "hours": 116.54,
+        "checked": 29256
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0811832,
+          -35.3630738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.226345083487941,
+        "location": "Strickland Crescent",
+        "visits": 85,
+        "hours": 112.83,
+        "checked": 33465
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1012957,
+          -35.3186108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.1998409753511794,
+        "location": "Mirrabei Drive",
+        "visits": 84,
+        "hours": 108.58,
+        "checked": 95932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1148877,
+          -35.1534332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.1998409753511794,
+        "location": "Clarrie Hermes Drive",
+        "visits": 84,
+        "hours": 108.03,
+        "checked": 91846
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0761287,
+          -35.183741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.1998409753511794,
+        "location": "Goldstein Crescent",
+        "visits": 84,
+        "hours": 115.7,
+        "checked": 25359
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1166936,
+          -35.4180769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.1733368672144184,
+        "location": "Nullarbor Avenue",
+        "visits": 83,
+        "hours": 109.74000000000001,
+        "checked": 18119
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1495201,
+          -35.2009676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.1733368672144184,
+        "location": "Tom Roberts Avenue",
+        "visits": 83,
+        "hours": 110.71000000000001,
+        "checked": 17700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1023264,
+          -35.4612765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.1733368672144184,
+        "location": "Fullagar Crescent",
+        "visits": 83,
+        "hours": 104.75,
+        "checked": 14872
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0276827,
+          -35.2324292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.1733368672144184,
+        "location": "Taverner Street",
+        "visits": 83,
+        "hours": 111.35000000000001,
+        "checked": 19220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0849326,
+          -35.4094227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.146832759077657,
+        "location": "Hobart Avenue",
+        "visits": 82,
+        "hours": 91.94,
+        "checked": 15755
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1250178,
+          -35.3144982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.146832759077657,
+        "location": "William Slim Drive",
+        "visits": 82,
+        "hours": 108.33,
+        "checked": 62290
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0897339,
+          -35.2045411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.0938245428041347,
+        "location": "Amy Ackman Street",
+        "visits": 80,
+        "hours": 104.27000000000001,
+        "checked": 12316
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1494312,
+          -35.1629511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 2.0673204346673733,
+        "location": "Ashley Drive (ROADWORKS)",
+        "visits": 79,
+        "hours": 103.74000000000001,
+        "checked": 62204
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1017757,
+          -35.4048422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.98780811025709,
+        "location": "Bunbury Street",
+        "visits": 76,
+        "hours": 103.96000000000001,
+        "checked": 13074
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0504945,
+          -35.3482632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.9347998939835676,
+        "location": "Petterd Street",
+        "visits": 74,
+        "hours": 95.62,
+        "checked": 11636
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0537901,
+          -35.2429496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.9347998939835676,
+        "location": "Matina Street",
+        "visits": 74,
+        "hours": 97.82000000000001,
+        "checked": 11556
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1546852,
+          -35.3277825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.9082957858468061,
+        "location": "Learmonth Drive",
+        "visits": 73,
+        "hours": 96.24000000000001,
+        "checked": 19738
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0436107,
+          -35.3930423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.9082957858468061,
+        "location": "Clive Steele Avenue",
+        "visits": 73,
+        "hours": 94.43,
+        "checked": 15261
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1022115,
+          -35.409854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.8287834614365226,
+        "location": "Spalding Street",
+        "visits": 70,
+        "hours": 90.52,
+        "checked": 19541
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0475769,
+          -35.19934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.8287834614365226,
+        "location": "David Walsh Avenue",
+        "visits": 70,
+        "hours": 88.86,
+        "checked": 26881
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1449306,
+          -35.1787325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.8287834614365226,
+        "location": "O'Loghlen Street",
+        "visits": 70,
+        "hours": 92.2,
+        "checked": 12856
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0395256,
+          -35.2221223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.8022793532997614,
+        "location": "Hodgson Crescent",
+        "visits": 69,
+        "hours": 90.91,
+        "checked": 17833
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0827369,
+          -35.3622212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.8022793532997614,
+        "location": "Lachlan Street",
+        "visits": 69,
+        "hours": 86.95,
+        "checked": 9987
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0608405,
+          -35.2481818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.7757752451630002,
+        "location": "Weston Street",
+        "visits": 68,
+        "hours": 90.11,
+        "checked": 15361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0979612,
+          -35.30958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.749271137026239,
+        "location": "Newman Morris Circuit",
+        "visits": 67,
+        "hours": 87.66,
+        "checked": 8166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0820606,
+          -35.4082095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.749271137026239,
+        "location": "Eucumbene Drive",
+        "visits": 67,
+        "hours": 89.44,
+        "checked": 15694
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0265034,
+          -35.3360694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.749271137026239,
+        "location": "Novar Street",
+        "visits": 67,
+        "hours": 87.89,
+        "checked": 22449
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0982156,
+          -35.31288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.7227670288894779,
+        "location": "Barr Smith Avenue",
+        "visits": 66,
+        "hours": 85.92,
+        "checked": 14449
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0739924,
+          -35.4266677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6962629207527167,
+        "location": "Plimsoll Drive",
+        "visits": 65,
+        "hours": 81.62,
+        "checked": 16419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0983835,
+          -35.1626722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6962629207527167,
+        "location": "Hemmings Crescent",
+        "visits": 65,
+        "hours": 87.26,
+        "checked": 5713
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1094685,
+          -35.4214134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6962629207527167,
+        "location": "Bateman Street",
+        "visits": 65,
+        "hours": 89.05,
+        "checked": 27234
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0519405,
+          -35.3899528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6962629207527167,
+        "location": "Bangalay Crescent",
+        "visits": 65,
+        "hours": 85.73,
+        "checked": 13898
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0393476,
+          -35.3437161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6697588126159555,
+        "location": "Companion Crescent",
+        "visits": 64,
+        "hours": 82.5,
+        "checked": 5497
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0374511,
+          -35.2097768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6697588126159555,
+        "location": "Boolimba Crescent",
+        "visits": 64,
+        "hours": 86.13000000000001,
+        "checked": 8307
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1526003,
+          -35.332252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6432547044791943,
+        "location": "Giles Street",
+        "visits": 63,
+        "hours": 81.62,
+        "checked": 18559
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1399073,
+          -35.3160585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.6167505963424331,
+        "location": "Cotter Road (ROADWORKS)",
+        "visits": 62,
+        "hours": 81.17,
+        "checked": 53586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9540221,
+          -35.3251711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.590246488205672,
+        "location": "Catchpole Street",
+        "visits": 61,
+        "hours": 81.96000000000001,
+        "checked": 29492
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0661811,
+          -35.2495527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.5372382719321496,
+        "location": "Longmore Crescent",
+        "visits": 59,
+        "hours": 77.82000000000001,
+        "checked": 6552
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0973838,
+          -35.3877221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.5107341637953884,
+        "location": "Lyttleton Crescent",
+        "visits": 58,
+        "hours": 76.54,
+        "checked": 19520
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0645932,
+          -35.2570901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.484230055658627,
+        "location": "Essie Coffey Street",
+        "visits": 57,
+        "hours": 70.84,
+        "checked": 5303
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1354842,
+          -35.1538796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.4577259475218658,
+        "location": "Schlich Street",
+        "visits": 56,
+        "hours": 73.96000000000001,
+        "checked": 5458
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1094994,
+          -35.306981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.3782136231115822,
+        "location": "Archdall Street",
+        "visits": 53,
+        "hours": 69.99,
+        "checked": 7653
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0161273,
+          -35.1992821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.3782136231115822,
+        "location": "Benjamin Way",
+        "visits": 53,
+        "hours": 68.74,
+        "checked": 23229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0673194,
+          -35.2402111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.3252054068380599,
+        "location": "Shoalhaven Avenue",
+        "visits": 51,
+        "hours": 64.2,
+        "checked": 23304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1265157,
+          -35.1686921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.2987012987012987,
+        "location": "Roden Cutler Drive",
+        "visits": 50,
+        "hours": 65.35,
+        "checked": 19826
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1313502,
+          -35.1632252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.2987012987012987,
+        "location": "John Cleland Crescent",
+        "visits": 50,
+        "hours": 62.410000000000004,
+        "checked": 15701
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.06057,
+          -35.2260779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.2721971905645375,
+        "location": "Forsythe Street",
+        "visits": 49,
+        "hours": 65.25,
+        "checked": 8610
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0973289,
+          -35.4747083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.2456930824277763,
+        "location": "Joynton Smith Drive",
+        "visits": 48,
+        "hours": 59.45,
+        "checked": 23897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0629793,
+          -35.2357359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.2456930824277763,
+        "location": "Nudurr Drive",
+        "visits": 48,
+        "hours": 60.660000000000004,
+        "checked": 10662
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1130063,
+          -35.1993175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.2456930824277763,
+        "location": "Charleston Street",
+        "visits": 48,
+        "hours": 63.01,
+        "checked": 11750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0789735,
+          -35.4145894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.2191889742910151,
+        "location": "Cooyong Street",
+        "visits": 47,
+        "hours": 55.68,
+        "checked": 22830
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1319018,
+          -35.2760598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.1661807580174928,
+        "location": "Barraclough Crescent",
+        "visits": 45,
+        "hours": 59.27,
+        "checked": 7158
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0962914,
+          -35.4163625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.1396766498807316,
+        "location": "Gundaroo Drive (Road Works)",
+        "visits": 44,
+        "hours": 58.94,
+        "checked": 56249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0839947,
+          -35.2165659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.1396766498807316,
+        "location": "Kitchener Street",
+        "visits": 44,
+        "hours": 60.230000000000004,
+        "checked": 32486
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.098875,
+          -35.3437378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.1131725417439704,
+        "location": "Eastern Valley Way",
+        "visits": 43,
+        "hours": 48.94,
+        "checked": 19007
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0751222,
+          -35.2454394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.0866684336072092,
+        "location": "Northcott Drive",
+        "visits": 42,
+        "hours": 57.660000000000004,
+        "checked": 21318
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1628906,
+          -35.2917272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.0601643254704478,
+        "location": "White Crescent",
+        "visits": 41,
+        "hours": 54.71,
+        "checked": 8920
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1576763,
+          -35.2868368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.0336602173336866,
+        "location": "Verbrugghen Street",
+        "visits": 40,
+        "hours": 52.94,
+        "checked": 7931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0500691,
+          -35.2112338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.0336602173336866,
+        "location": "Dumas Street",
+        "visits": 40,
+        "hours": 50.480000000000004,
+        "checked": 5230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0803028,
+          -35.2195811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.0336602173336866,
+        "location": "Barton Highway / William Slim Drive Roundabout - Road Works - Northbound",
+        "visits": 40,
+        "hours": 54.64,
+        "checked": 27395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.094333,
+          -35.201464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 1.0071561091969254,
+        "location": "Brisbane Avenue",
+        "visits": 39,
+        "hours": 50.75,
+        "checked": 12984
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.135909,
+          -35.3092454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9806520010601644,
+        "location": "Devonport Street",
+        "visits": 38,
+        "hours": 51.44,
+        "checked": 17662
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0744647,
+          -35.336318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9806520010601644,
+        "location": "Pethebridge Street",
+        "visits": 38,
+        "hours": 49.28,
+        "checked": 3931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0872683,
+          -35.3643064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9541478929234031,
+        "location": "Bacchus Circuit",
+        "visits": 37,
+        "hours": 46.74,
+        "checked": 2395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0502864,
+          -35.377303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9541478929234031,
+        "location": "Heydon Crescent",
+        "visits": 37,
+        "hours": 49.150000000000006,
+        "checked": 5278
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0810207,
+          -35.2074066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9541478929234031,
+        "location": "Clancy Street",
+        "visits": 37,
+        "hours": 48.64,
+        "checked": 7476
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0709152,
+          -35.2075246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9276437847866419,
+        "location": "King Edward Terrace",
+        "visits": 36,
+        "hours": 47.38,
+        "checked": 23726
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1368708,
+          -35.3025224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9011396766498807,
+        "location": "Kuringa Drive",
+        "visits": 35,
+        "hours": 47.92,
+        "checked": 38067
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.075061,
+          -35.1844746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.9011396766498807,
+        "location": "Boldrewood Street",
+        "visits": 35,
+        "hours": 43.800000000000004,
+        "checked": 9476
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1145749,
+          -35.2684665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.8746355685131195,
+        "location": "Archibald Street",
+        "visits": 34,
+        "hours": 43.18,
+        "checked": 7600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.118143,
+          -35.2442867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.8481314603763583,
+        "location": "Alpen Street",
+        "visits": 33,
+        "hours": 41.870000000000005,
+        "checked": 8316
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0598607,
+          -35.2036223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.8481314603763583,
+        "location": "Flinders Way",
+        "visits": 33,
+        "hours": 41.83,
+        "checked": 17514
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1332593,
+          -35.3221663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.8481314603763583,
+        "location": "Torrens Street",
+        "visits": 33,
+        "hours": 43.59,
+        "checked": 19467
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1338819,
+          -35.2748768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.8216273522395972,
+        "location": "Julia Flynn Avenue",
+        "visits": 32,
+        "hours": 41.39,
+        "checked": 4352
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1093377,
+          -35.3638885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.795123244102836,
+        "location": "Krefft Street",
+        "visits": 31,
+        "hours": 39.050000000000004,
+        "checked": 8946
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0432941,
+          -35.2242881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.795123244102836,
+        "location": "Parkwood Road",
+        "visits": 31,
+        "hours": 36.89,
+        "checked": 10915
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.9866941,
+          -35.2070674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.7686191359660748,
+        "location": "Heysen Street",
+        "visits": 30,
+        "hours": 39.57,
+        "checked": 8577
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0541802,
+          -35.3303362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.7686191359660748,
+        "location": "Deamer Crescent",
+        "visits": 30,
+        "hours": 40.39,
+        "checked": 4705
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1295984,
+          -35.4284543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.7421150278293135,
+        "location": "Wimmera Street",
+        "visits": 29,
+        "hours": 37.94,
+        "checked": 7045
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1525222,
+          -35.195343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.7156109196925523,
+        "location": "Benjamin way",
+        "visits": 28,
+        "hours": 36.69,
+        "checked": 10733
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0673194,
+          -35.2402111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.6891068115557911,
+        "location": "Spofforth Street",
+        "visits": 27,
+        "hours": 32.56,
+        "checked": 5687
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0070466,
+          -35.2283919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.6891068115557911,
+        "location": "Bramston Street",
+        "visits": 27,
+        "hours": 35.36,
+        "checked": 4736
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1166916,
+          -35.404066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.6891068115557911,
+        "location": "Burkitt Street",
+        "visits": 27,
+        "hours": 34.58,
+        "checked": 3101
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0538012,
+          -35.2367257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.6626027034190299,
+        "location": "Langtree Crescent",
+        "visits": 26,
+        "hours": 35.6,
+        "checked": 3353
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1126617,
+          -35.2004114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.6095944871455076,
+        "location": "Templestowe Avenue",
+        "visits": 24,
+        "hours": 31.48,
+        "checked": 1670
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1084573,
+          -35.462701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.6095944871455076,
+        "location": "Froggatt Street",
+        "visits": 24,
+        "hours": 30.0,
+        "checked": 5402
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1180997,
+          -35.2715394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.5830903790087464,
+        "location": "Norriss Street",
+        "visits": 23,
+        "hours": 31.76,
+        "checked": 3537
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1235571,
+          -35.4173487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.5565862708719852,
+        "location": "Clift Crescent",
+        "visits": 22,
+        "hours": 28.21,
+        "checked": 6114
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1046547,
+          -35.4250529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.5300821627352239,
+        "location": "Truscott Street",
+        "visits": 21,
+        "hours": 27.830000000000002,
+        "checked": 5697
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1626385,
+          -35.2868637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.5300821627352239,
+        "location": "McCulloch Street",
+        "visits": 21,
+        "hours": 27.91,
+        "checked": 14057
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0819395,
+          -35.3216532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.5035780545984627,
+        "location": "Dunstan Street",
+        "visits": 20,
+        "hours": 25.71,
+        "checked": 2221
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0798291,
+          -35.3187699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.5035780545984627,
+        "location": "Langdon Avenue",
+        "visits": 20,
+        "hours": 26.200000000000003,
+        "checked": 4339
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.087174,
+          -35.3916452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.45056983832494035,
+        "location": "Jackie Howe Crescent",
+        "visits": 18,
+        "hours": 24.3,
+        "checked": 1415
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1312866,
+          -35.4029544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.45056983832494035,
+        "location": "Duggan Street",
+        "visits": 18,
+        "hours": 23.51,
+        "checked": 3970
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0982018,
+          -35.4388711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.45056983832494035,
+        "location": "Madigan Street",
+        "visits": 18,
+        "hours": 23.62,
+        "checked": 2472
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1605673,
+          -35.2528715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.45056983832494035,
+        "location": "Narrabundah Lane",
+        "visits": 18,
+        "hours": 34.05,
+        "checked": 1811
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.160714,
+          -35.347117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.45056983832494035,
+        "location": "David Street",
+        "visits": 18,
+        "hours": 18.91,
+        "checked": 2923
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1305922,
+          -35.260677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.37105751391465674,
+        "location": "Girrahween Street",
+        "visits": 15,
+        "hours": 19.48,
+        "checked": 3456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1399363,
+          -35.2694603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.37105751391465674,
+        "location": "Fornax Street",
+        "visits": 15,
+        "hours": 17.53,
+        "checked": 571
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0967421,
+          -35.2110208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.34455340577789556,
+        "location": "6",
+        "visits": 14,
+        "hours": 18.400000000000002,
+        "checked": 6839
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0730425,
+          -35.3451522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.34455340577789556,
+        "location": "Cunningham Street",
+        "visits": 14,
+        "hours": 17.21,
+        "checked": 524
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1462644,
+          -35.3183705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.34455340577789556,
+        "location": "Hurley Street",
+        "visits": 14,
+        "hours": 18.75,
+        "checked": 1681
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0941378,
+          -35.3599483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.3180492976411344,
+        "location": "Troughton Street",
+        "visits": 13,
+        "hours": 16.57,
+        "checked": 712
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1024519,
+          -35.4730139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.23853697323085077,
+        "location": "Chirnside Circuit",
+        "visits": 10,
+        "hours": 11.940000000000001,
+        "checked": 219
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0578406,
+          -35.3845832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.23853697323085077,
+        "location": "Downard Street",
+        "visits": 10,
+        "hours": 13.4,
+        "checked": 1122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1022817,
+          -35.4397936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.21203286509408958,
+        "location": "Monaro Highway (Road Works)",
+        "visits": 9,
+        "hours": 14.6,
+        "checked": 16222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.238349,
+          -36.43119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.21203286509408958,
+        "location": "Cossington Smith Crescent",
+        "visits": 9,
+        "hours": 9.99,
+        "checked": 463
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.125724,
+          -35.240441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.18552875695732837,
+        "location": "Oaks Estate Road",
+        "visits": 8,
+        "hours": 9.65,
+        "checked": 4971
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2212675,
+          -35.3385421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.18552875695732837,
+        "location": "Paperbark Street",
+        "visits": 8,
+        "hours": 9.22,
+        "checked": 227
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1044631,
+          -35.4699183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.18552875695732837,
+        "location": "McCormack Street",
+        "visits": 8,
+        "hours": 10.09,
+        "checked": 321
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0734329,
+          -35.3287343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.13252054068380598,
+        "location": "Gilmore Crescent",
+        "visits": 6,
+        "hours": 7.9,
+        "checked": 1398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1079715,
+          -35.3404675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.10601643254704479,
+        "location": "Jansz Crescent",
+        "visits": 5,
+        "hours": 6.12,
+        "checked": 525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1309034,
+          -35.3285465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.10601643254704479,
+        "location": "Throssell Street",
+        "visits": 5,
+        "hours": 6.18,
+        "checked": 552
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0757159,
+          -35.3239999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.0795123244102836,
+        "location": "Castley Circuit",
+        "visits": 4,
+        "hours": 4.23,
+        "checked": 125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0552848,
+          -35.3868108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.053008216273522396,
+        "location": "Uriarra Road",
+        "visits": 3,
+        "hours": 3.83,
+        "checked": 124
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0244622,
+          -35.3123844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.026504108136761198,
+        "location": "Coppins Crossing Road",
+        "visits": 2,
+        "hours": 2.83,
+        "checked": 1033
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0396557,
+          -35.2862272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.026504108136761198,
+        "location": "Jennings Street",
+        "visits": 2,
+        "hours": 2.66,
+        "checked": 29
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0714811,
+          -35.3246595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.0,
+        "location": "Don Dunstan Drive",
+        "visits": 1,
+        "hours": 1.33,
+        "checked": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.073364,
+          -35.4279347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.0,
+        "location": "Gladstone Street",
+        "visits": 1,
+        "hours": 1.58,
+        "checked": 52
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1719141,
+          -35.3243539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.0,
+        "location": "Majura Road",
+        "visits": 1,
+        "hours": 1.42,
+        "checked": 456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1894912,
+          -35.2935303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.0,
+        "location": "EGGLESTON CRESCENT",
+        "visits": 1,
+        "hours": 0.85,
+        "checked": 299
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.0752959,
+          -35.3502316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "intensity": 0.0,
+        "location": "Empire Circuit",
+        "visits": 1,
+        "hours": 1.17,
+        "checked": 412
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.1216871,
+          -35.318315
+        ]
+      }
+    }
+  ]
 }
