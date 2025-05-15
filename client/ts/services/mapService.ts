@@ -1,5 +1,6 @@
 import mapboxgl from "mapbox-gl";
 import { GeoJSONData } from "../types";
+import { showFilterResults } from "../utils/notifications";
 import { ENV } from "../env";
 
 export class MapService {
@@ -402,6 +403,7 @@ export class MapService {
 
 	private updateFilterSummary(count: number): void {
 		console.log("Filtered count:", count);
+
 		// Create a summary of active filters for accessibility
 		const activeFilters = Object.entries(this.filters)
 			.filter(([_, value]) => value !== "all")
@@ -424,27 +426,7 @@ export class MapService {
 
 		filterSummary.textContent = summaryText;
 
-		// Also show a visible notification for all users
-		const notification = document.createElement("div");
-		notification.className = "filter-notification";
-		notification.textContent = `${count} locations found`;
-		notification.style.position = "absolute";
-		notification.style.top = "10px";
-		notification.style.left = "50%";
-		notification.style.transform = "translateX(-50%)";
-		notification.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
-		notification.style.padding = "5px 10px";
-		notification.style.borderRadius = "4px";
-		notification.style.zIndex = "1000";
-
-		// Remove after 2 seconds
-		document.body.appendChild(notification);
-		setTimeout(() => {
-			notification.style.opacity = "0";
-			notification.style.transition = "opacity 0.5s ease-out";
-			setTimeout(() => {
-				document.body.removeChild(notification);
-			}, 500);
-		}, 2000);
+		// Use the new notification utility with the filter results
+		showFilterResults(count, activeFilters);
 	}
 }

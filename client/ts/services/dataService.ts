@@ -1,9 +1,9 @@
-import { LocalStorageCache } from "../utils/cache";
 import {
 	GeoJSONFeatureCollection,
 	CSVHeatmapDataPoint,
 	GeoJSONData,
 } from "../types";
+import { showError } from "../utils/notifications";
 import Papa from "papaparse";
 
 // 1 hour stale time
@@ -177,17 +177,7 @@ export class DataService {
 	}
 
 	private static showError(message: string): void {
-		const errorElement = document.getElementById("error-message");
-		if (errorElement) {
-			errorElement.textContent = message;
-			errorElement.classList.add("visible");
-
-			// Hide after 5 seconds
-			setTimeout(() => {
-				errorElement.classList.remove("visible");
-			}, 5000);
-		}
-
+		showError(message);
 		console.error(message);
 	}
 }
