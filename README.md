@@ -12,9 +12,9 @@ The project is run at [deco7180teams-vikings.uqcloud.net](https://deco7180teams-
 | Full Name              | Email                                                                     |
 | ---------------------- | ------------------------------------------------------------------------- |
 | Magnus Byrkjeland      | [m.byrkjeland@student.uqu.edu.au](mailto:m.byrkjeland@student.uqu.edu.au) |
-| Just Lund Broch        | [m.byrkjeland@student.uqu.edu.au](mailto:m.byrkjeland@student.uqu.edu.au) |
-| Elisabeth Caspersen    | [m.byrkjeland@student.uqu.edu.au](mailto:m.byrkjeland@student.uqu.edu.au) |
-| Thea Slemdal Bergersen | [m.byrkjeland@student.uqu.edu.au](mailto:m.byrkjeland@student.uqu.edu.au) |
+| Just Lund Broch        | [j.broch@student.uqu.edu.au](mailto:j.broch@student.uqu.edu.au)           |
+| Elisabeth Caspersen    | [e.caspersen@student.uqu.edu.au](mailto:e.caspersen@student.uqu.edu.au)   |
+| Thea Slemdal Bergersen | [t.bergersen@student.uqu.edu.au](mailto:t.bergersen@student.uqu.edu.au)   |
 
 # 📦 Installation
 
