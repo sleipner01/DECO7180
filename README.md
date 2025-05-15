@@ -205,13 +205,14 @@ To use the data processing toolkit:
 ├── .vscode/                     # VS Code configuration
 │   ├── example.sftp.json        # Template for SFTP configuration
 │   └── sftp.json                # Actual SFTP configuration (gitignored)
-│── client/                      # Client-side code (deployed to server)
+├── client/                      # Client-side code (deployed to server)
 │   ├── index.html               # Main HTML page
 │   ├── css/                     # CSS stylesheets
 │   │   └── styles.css           # Main stylesheet
 │   ├── data/                    # Data files
 │   │   ├── data.csv             # CSV data for heatmap (if used)
 │   │   └── data.json            # JSON data for heatmap
+│   │   └── traffic_data_summary.json # Summary statistics for the dashboard
 │   ├── js/                      # Compiled JavaScript (output of build)
 │   │   ├── script.js            # Compiled main script
 │   │   └── script.js.LICENSE.txt # License information for dependencies
@@ -223,20 +224,27 @@ To use the data processing toolkit:
 │       ├── types.ts             # Type definitions
 │       ├── services/            # Service modules
 │       │   ├── dataService.ts   # Data fetching and processing
-│       │   └── mapService.ts    # Map initialization and management
+│       │   ├── mapService.ts    # Map initialization and management
+│       │   ├── filterService.ts # Filter management and application
+│       │   ├── layerService.ts  # Map layer configurations
+│       │   └── dropdownService.ts # Dynamic dropdown population
 │       └── utils/               # Utility modules
 │           ├── accessibility.ts # Accessibility helpers
 │           ├── cache.ts         # Data caching implementation
+│           ├── geoJsonUtils.ts  # GeoJSON processing utilities
+│           ├── notifications.ts # Centralized notification system
+│           ├── uiUtils.ts       # UI-related utilities
 │           └── convert.ts       # Data conversion utilities
 └── data-alchemy/
-   ├── data/                     # Raw data files
-   ├── notebooks/                # Jupyter notebooks for exploration and development
-   │   ├── combine.ipynb         # Combine data from multiple sources
-   │   ├── mobile_camera_data_processing.ipynb       # Process mobile camera data
-   │   └── infringement_data_processing.ipynb        # Process infringement data
-   ├── output/                   # Generated data files
-   ├── venv/                     # Virtual environment (not tracked in git)
-   └── requirements.txt          # Project dependencies
+    ├── data/                    # Raw data files
+    ├── notebooks/               # Jupyter notebooks for exploration and development
+    │   ├── combine.ipynb        # Combine data from multiple sources
+    │   ├── mobile_camera_data_processing.ipynb      # Process mobile camera data
+    │   └── infringement_data_processing.ipynb       # Process infringement data
+    ├── output/                  # Generated data files
+    │   └── combined/            # Final combined data products
+    ├── venv/                    # Virtual environment (not tracked in git)
+    └── requirements.txt         # Python dependencies
 ```
 
 ## Key Components 🗝️
