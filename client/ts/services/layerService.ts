@@ -73,39 +73,42 @@ export class LayerService {
 					16,
 					["interpolate", ["linear"], ["get", "intensity"], 0, 5, 100, 20],
 				],
-				// Color circle by intensity
 				"circle-color": [
 					"interpolate",
 					["linear"],
 					["get", "intensity"],
 					0,
-					"blue",
+					"#1a73e8", // Bright blue for lowest intensity
+					25,
+					"#32b47d", // Teal-green for low-medium intensity
 					50,
-					"yellow",
+					"#fbb726", // Amber for medium intensity
+					75,
+					"#f57d00", // Orange for medium-high intensity
 					100,
-					"red",
+					"#ea4335", // Bright red for highest intensity
 				],
+				// Increase stroke width for better visibility
 				"circle-stroke-width": [
 					"interpolate",
 					["linear"],
 					["zoom"],
 					6,
-					0,
+					0.5, // Thin stroke even at lower zoom levels
 					8,
-					1,
+					1.5, // Thicker stroke at higher zoom levels
 				],
-				"circle-stroke-color": "white",
-				// More gradual opacity transition
+				"circle-stroke-color": "rgba(230, 230, 230, 0.6)",
 				"circle-opacity": [
 					"interpolate",
 					["linear"],
 					["zoom"],
-					5,
-					0, // Fully transparent at zoom level 5
 					7,
-					0.3, // Start becoming visible
+					0.1, // Slightly visible at low zoom
+					8,
+					0.5, // More visible at medium zoom
 					9,
-					0.8, // Almost fully visible by zoom level 9
+					0.9, // Almost fully visible at high zoom
 				],
 			},
 		};

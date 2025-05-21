@@ -22,6 +22,49 @@ html {
 	height: 100%;
 }
 
+/* 
+ * Custom styling for Mapbox popup close button
+ */
+.mapboxgl-popup-close-button {
+	font-size: 1.6rem !important; /* Increase font size */
+	padding: 6px 12px !important; /* Increase padding for bigger clickable area */
+	color: #333 !important; /* Darker color for better visibility */
+	right: 5px !important;
+	top: 5px !important;
+	line-height: 24px !important;
+	border-radius: 4px !important;
+}
+
+.mapboxgl-popup-close-button:hover {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+	color: #000 !important;
+}
+
+/* Make the popup content have more padding to accommodate larger close button */
+.mapboxgl-popup-content {
+	padding: 1rem 1rem 0.6rem !important;
+	padding-right: 2.8rem !important; /* Extra space on the right for the close button */
+	font-size: 1rem !important;
+	line-height: 1.6 !important;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+	.mapboxgl-popup-close-button {
+		font-size: 1.8rem !important;
+		padding: 0.5rem 1rem !important;
+	}
+
+	.mapboxgl-popup-content {
+		padding-right: 3rem !important;
+		font-size: 0.8rem !important;
+	}
+}
+
+/* 
+ * Map legend styles
+ */
+
 .legend {
 	position: absolute;
 	bottom: 1.4rem;
@@ -37,7 +80,7 @@ html {
 .legend h3 {
 	margin-bottom: 0.5rem;
 	font-size: 1rem;
-	color: #2c3e50;
+	color: black;
 }
 
 .gradient {
@@ -46,11 +89,11 @@ html {
 	margin-bottom: 5px;
 	background: linear-gradient(
 		to right,
-		rgba(0, 0, 255, 0.5),
-		rgba(0, 255, 255, 0.5),
-		rgba(0, 255, 0, 0.5),
-		rgba(255, 255, 0, 0.5),
-		rgba(255, 0, 0, 0.5)
+		rgba(0, 0, 255, 0.6),
+		rgba(0, 255, 255, 0.6),
+		rgba(0, 255, 0, 0.6),
+		rgba(255, 255, 0, 0.6),
+		rgba(255, 0, 0, 0.6)
 	);
 }
 
@@ -58,6 +101,17 @@ html {
 	display: flex;
 	justify-content: space-between;
 	font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+	.legend {
+		bottom: 1rem;
+		left: 1rem;
+	}
+
+	.legend h3 {
+		font-size: 0.8rem;
+	}
 }
 
 /* 
@@ -205,16 +259,38 @@ html {
 	top: 0;
 }
 
-#map-controls:focus {
+/*
+ * Accessibility styles for focus states
+ */
+
+/* Focus styles for better keyboard navigation */
+:focus {
+	outline: 2px solid #4a90e2;
+	outline-offset: 2px;
+}
+
+/* Focus indicators that only appear when using keyboard */
+:focus:not(:focus-visible) {
 	outline: none;
 }
 
-.map-controls {
-	position: absolute;
-	bottom: 2rem;
-	right: 2rem;
-	z-index: 10;
+:focus-visible {
+	outline: 2px solid #4a90e2;
+	outline-offset: 2px;
 }
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+	.legend,
+	.info-panel {
+		border: 1px solid CanvasText;
+	}
+}
+
+/*
+ * Info panel styles
+ * These styles are used to create an info panel that provides information about the map.
+ */
 
 .info-button {
 	position: absolute;
@@ -273,32 +349,29 @@ html {
 	margin-top: 10px;
 }
 
-/*
- * Accessibility styles for focus states
- */
-
-/* Focus styles for better keyboard navigation */
-:focus {
-	outline: 2px solid #4a90e2;
-	outline-offset: 2px;
+@media (max-width: 768px) {
+	.info-panel {
+		right: 1rem;
+	}
+	.info-button {
+		top: 1rem;
+		right: 1rem;
+	}
 }
 
-/* Focus indicators that only appear when using keyboard */
-:focus:not(:focus-visible) {
+/*
+ * Map controls styles
+ */
+
+#map-controls:focus {
 	outline: none;
 }
 
-:focus-visible {
-	outline: 2px solid #4a90e2;
-	outline-offset: 2px;
-}
-
-/* High contrast mode support */
-@media (forced-colors: active) {
-	.legend,
-	.info-panel {
-		border: 1px solid CanvasText;
-	}
+.map-controls {
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
+	z-index: 10;
 }
 
 /* 
@@ -330,7 +403,7 @@ html {
 	display: block;
 	margin-bottom: 0.3rem;
 	font-weight: 500;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .filter-group select {
@@ -441,6 +514,11 @@ html {
 		z-index: 10;
 	}
 
+	.filter-toggle-button {
+		right: 1rem;
+		bottom: 1rem;
+	}
+
 	.map-controls.visible {
 		transform: translateY(0);
 	}
@@ -466,6 +544,11 @@ html {
 		padding: 5px;
 	}
 }
+
+/*
+ * Utility classes
+ * These classes are used for common styles that can be reused across the application.
+ */
 
 .hidden {
 	display: none;
