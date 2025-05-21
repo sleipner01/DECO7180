@@ -94,9 +94,42 @@
 			aria-label="Interactive heatmap of traffic infringements across Australia"
 		></div>
 
-		<!-- Add this inside the map-controls section -->
+		<button
+			id="filter-toggle"
+			class="filter-toggle-button"
+			aria-expanded="false"
+			aria-controls="map-controls"
+		>
+			<span class="sr-only">Show filters</span>
+			<span aria-hidden="true">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<polygon
+						points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"
+					></polygon>
+				</svg>
+			</span>
+		</button>
+
 		<section id="map-controls" class="map-controls" tabindex="-1">
 			<div class="filters-container">
+				<!-- Close button for mobile -->
+				<button
+					id="filter-close"
+					class="filter-close-button"
+					aria-label="Close filters"
+				>
+					<span aria-hidden="true">×</span>
+				</button>
 				<h3>Filters</h3>
 
 				<div class="filter-group">

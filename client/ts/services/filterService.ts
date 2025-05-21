@@ -24,6 +24,9 @@ export class FilterService {
 	constructor(onFilterChange: (filteredData: GeoJSONData) => void) {
 		this.onFilterChange = onFilterChange;
 		this.setupEventListeners();
+		this.setupMobileFilterToggle();
+		this.initializeFilterVisibility();
+		this.setupResizeHandler();
 	}
 
 	/**
@@ -213,5 +216,106 @@ export class FilterService {
 
 		// Use the notification utility for visible feedback
 		showFilterResults(count, activeFilters);
+	}
+
+	/**
+	 * Set up mobile filter toggle functionality
+	 */
+	private setupMobileFilterToggle(): void {
+		const filterToggle = document.getElementById("filter-toggle");
+		const filterPanel = document.getElementById("map-controls");
+		const filterClose = document.getElementById("filter-close");
+
+		if (filterToggle && filterPanel) {
+			// Toggle filter panel visibility when button is clicked
+			filterToggle.addEventListener("click", () => {
+				const isExpanded =
+					filterToggle.getAttribute("aria-expanded") === "true";
+				filterToggle.setAttribute("aria-expanded", (!isExpanded).toString());
+
+				if (!isExpanded) {
+					filterPanel.classList.add("visible");
+					filterToggle.classList.add("hidden");
+				} else {
+					filterPanel.classList.remove("visible");
+				}
+			});
+
+			// Close with the dedicated close button
+			if (filterClose) {
+				filterClose.addEventListener("click", () => {
+					filterPanel.classList.remove("visible");
+					filterToggle.classList.remove("hidden");
+					filterToggle.setAttribute("aria-expanded", "false");
+					filterToggle.focus(); // Return focus to toggle for accessibility
+				});
+			}
+
+			// Close panel when clicking outside
+			document.addEventListener("click", (event) => {
+				const target = event.target as Element;
+
+				if (
+					filterPanel.classList.contains("visible") &&
+					!filterPanel.contains(target) &&
+					target !== filterToggle &&
+					!filterToggle.contains(target)
+				) {
+					filterPanel.classList.remove("visible");
+					filterToggle.classList.remove("hidden");
+					filterToggle.setAttribute("aria-expanded", "false");
+				}
+			});
+
+			// Close panel when pressing Escape key
+			document.addEventListener("keydown", (event) => {
+				if (
+					event.key === "Escape" &&
+					filterPanel.classList.contains("visible")
+				) {
+					filterPanel.classList.remove("visible");
+					filterToggle.classList.remove("hidden");
+					filterToggle.setAttribute("aria-expanded", "false");
+					filterToggle.focus(); // Return focus to toggle for accessibility
+				}
+			});
+		}
+	}
+
+	/**
+	 * Initialize filter visibility based on screen size
+	 */
+	private initializeFilterVisibility(): void {
+		const filterPanel = document.getElementById("map-controls");
+		if (filterPanel) {
+			// Check if we're on mobile
+			if (window.innerWidth <= 768) {
+				filterPanel.classList.remove("visible");
+			} else {
+				filterPanel.classList.add("visible");
+			}
+		}
+	}
+
+	/**
+	 * Set up window resize handler to adjust filter visibility
+	 */
+	private setupResizeHandler(): void {
+		window.addEventListener("resize", () => {
+			const filterPanel = document.getElementById("map-controls");
+			const filterToggle = document.getElementById("filter-toggle");
+
+			if (filterPanel && filterToggle) {
+				if (window.innerWidth > 768) {
+					// On desktop, always show filters
+					filterPanel.classList.add("visible");
+				} else {
+					// On mobile, hide filters unless explicitly shown
+					if (filterToggle.getAttribute("aria-expanded") !== "true") {
+						filterPanel.classList.remove("visible");
+					}
+				}
+			}
+		});
 	}
 }
