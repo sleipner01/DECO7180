@@ -2,6 +2,7 @@ import { MapService } from "./services/mapService";
 import { DataService } from "./services/dataService";
 import { ENV } from "./env";
 import { setupAccessibility } from "./utils/accessibility";
+import { TutorialService } from "./services/tutorialService";
 
 // Wait for the DOM to load before initializing
 document.addEventListener("DOMContentLoaded", async () => {
@@ -18,6 +19,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 		);
 
 		mapService.displayData(data);
+
+		// Initialize the tutorial service
+		const tutorialService = new TutorialService();
+
+		// Set up help button to restart tutorial
+		document.getElementById("help-button")?.addEventListener("click", () => {
+			if (!tutorialService.isTutorialActive()) {
+				tutorialService.start();
+			}
+		});
 	} catch (error) {
 		console.error("Error initializing application:", error);
 

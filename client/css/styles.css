@@ -302,7 +302,7 @@ html {
 	border: none;
 	border-radius: 50%;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-	font-size: 24px;
+	font-size: 1.4rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -576,6 +576,46 @@ html {
 	.map-controls.compact-mode .reset-button {
 		padding: 0.3rem 0.8rem;
 		font-size: 0.8rem;
+	}
+}
+
+/* 
+ * Help Button styles
+ * These styles are used to create a help button that provides assistance to the user.
+ */
+
+.help-button {
+	position: fixed;
+	top: 1.4rem;
+	right: 5rem;
+	width: 3rem;
+	height: 3rem;
+	font-size: 1.6rem;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #1a73e8;
+	border: none;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	z-index: 10;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.2s, transform 0.2s;
+}
+
+.help-button:hover {
+	background-color: #f8f9fa;
+}
+
+.help-button:active {
+	transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+	.help-button {
+		top: 1rem;
+		right: 4.4rem;
 	}
 }
 
