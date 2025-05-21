@@ -324,7 +324,7 @@ html {
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 	width: 300px;
 	max-width: calc(100% - 40px);
-	z-index: 10;
+	z-index: 100;
 }
 
 .info-panel h2 {
@@ -461,7 +461,7 @@ html {
 	color: white;
 	border: none;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-	z-index: 11;
+	z-index: 10;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
@@ -507,11 +507,13 @@ html {
 		border-top-left-radius: 15px;
 		border-top-right-radius: 15px;
 		box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
-		max-height: 80vh;
-		overflow-y: auto;
+		max-height: 85vh; /* Changed from 80vh to 85vh */
+		overflow-y: auto; /* Ensures scrolling if content is too tall */
 		transform: translateY(100%);
 		transition: transform 0.3s ease-in-out;
 		z-index: 10;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.filter-toggle-button {
@@ -542,6 +544,38 @@ html {
 		cursor: pointer;
 		color: #666;
 		padding: 5px;
+	}
+
+	/* Styles for compact mode on very small screens */
+	.map-controls.compact-mode {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.map-controls.compact-mode .filter-group {
+		margin-bottom: 0.6rem;
+	}
+
+	.map-controls.compact-mode h3 {
+		font-size: 1rem;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		padding-bottom: 0.3rem;
+	}
+
+	.map-controls.compact-mode .filter-group label {
+		font-size: 0.8rem;
+		margin-bottom: 0.2rem;
+	}
+
+	.map-controls.compact-mode .filter-group select {
+		padding: 0.3rem;
+		font-size: 0.8rem;
+	}
+
+	.map-controls.compact-mode .reset-button {
+		padding: 0.3rem 0.8rem;
+		font-size: 0.8rem;
 	}
 }
 

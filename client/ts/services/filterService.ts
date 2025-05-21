@@ -190,8 +190,6 @@ export class FilterService {
 	 * Update the filter summary for accessibility and notifications
 	 */
 	private updateFilterSummary(count: number): void {
-		console.log("Filtered count:", count);
-
 		// Create a summary of active filters for accessibility
 		const activeFilters = Object.entries(this.filters)
 			.filter(([_, value]) => value !== "all")
@@ -234,8 +232,8 @@ export class FilterService {
 				filterToggle.setAttribute("aria-expanded", (!isExpanded).toString());
 
 				if (!isExpanded) {
+					this.applyCompactModeIfNeeded();
 					filterPanel.classList.add("visible");
-					filterToggle.classList.add("hidden");
 				} else {
 					filterPanel.classList.remove("visible");
 				}
@@ -245,7 +243,6 @@ export class FilterService {
 			if (filterClose) {
 				filterClose.addEventListener("click", () => {
 					filterPanel.classList.remove("visible");
-					filterToggle.classList.remove("hidden");
 					filterToggle.setAttribute("aria-expanded", "false");
 					filterToggle.focus(); // Return focus to toggle for accessibility
 				});
@@ -262,7 +259,6 @@ export class FilterService {
 					!filterToggle.contains(target)
 				) {
 					filterPanel.classList.remove("visible");
-					filterToggle.classList.remove("hidden");
 					filterToggle.setAttribute("aria-expanded", "false");
 				}
 			});
@@ -274,7 +270,6 @@ export class FilterService {
 					filterPanel.classList.contains("visible")
 				) {
 					filterPanel.classList.remove("visible");
-					filterToggle.classList.remove("hidden");
 					filterToggle.setAttribute("aria-expanded", "false");
 					filterToggle.focus(); // Return focus to toggle for accessibility
 				}
@@ -295,6 +290,7 @@ export class FilterService {
 				filterPanel.classList.add("visible");
 			}
 		}
+		this.applyCompactModeIfNeeded();
 	}
 
 	/**
@@ -316,6 +312,31 @@ export class FilterService {
 					}
 				}
 			}
+			this.applyCompactModeIfNeeded();
 		});
+	}
+
+	/**
+	 * Check and apply compact mode for small screen heights
+	 */
+	private applyCompactModeIfNeeded(): void {
+		const filterPanel = document.getElementById("map-controls");
+		if (!filterPanel) return;
+
+		// Consider screens shorter than 600px to be "short screens"
+		const isShortScreen = window.innerHeight < 600;
+
+		if (isShortScreen) {
+			filterPanel.classList.add("compact-mode");
+		} else {
+			filterPanel.classList.remove("compact-mode");
+		}
+
+		// For extremely small screens, limit the max-height further
+		if (window.innerHeight < 500) {
+			filterPanel.style.maxHeight = "95vh"; // Allow it to take almost the full height
+		} else {
+			filterPanel.style.maxHeight = "85vh"; // Default max height
+		}
 	}
 }
