@@ -5,6 +5,10 @@ import { LayerService } from "./layerService";
 import { FilterService } from "./filterService";
 import { ENV } from "../env";
 
+/**
+ * MapService class to handle map interactions
+ * and data visualization
+ */
 export class MapService {
 	private map: mapboxgl.Map;
 	private isMapLoaded = false;
@@ -54,6 +58,8 @@ export class MapService {
 
 	/**
 	 * Display GeoJSON data as a heatmap on the map
+	 *
+	 * @param geojsonData - The GeoJSON data to be displayed
 	 */
 	public displayData(geojsonData: GeoJSONData): void {
 		// Always store the original data when it's first passed to the map service
@@ -72,6 +78,8 @@ export class MapService {
 
 	/**
 	 * Update map data with filtered data
+	 *
+	 * @param filteredData - The filtered GeoJSON data to be displayed
 	 */
 	private updateMapData(filteredData: GeoJSONData): void {
 		if (!this.isMapLoaded) return;
@@ -86,6 +94,8 @@ export class MapService {
 
 	/**
 	 * Add a heatmap layer to the map
+	 *
+	 * @param geojsonData - The GeoJSON data to be displayed
 	 */
 	private addHeatmapLayer(geojsonData: GeoJSONData): void {
 		// Remove existing heatmap layer if it exists

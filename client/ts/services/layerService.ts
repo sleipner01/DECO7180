@@ -1,8 +1,20 @@
 import { CircleLayerSpecification, HeatmapLayerSpecification } from "mapbox-gl";
 
+/**
+ * LayerService class to manage map layers
+ * and their configurations
+ *
+ * This class provides methods to create
+ * heatmap and circle layer configurations
+ * for visualizing data on a map.
+ * It also includes a method to
+ * generate a popup with feature information.
+ */
 export class LayerService {
 	/**
 	 * Create a heatmap layer configuration
+	 *
+	 * @param sourceId - The ID of the data source for the layer
 	 */
 	static createHeatmapLayerConfig(sourceId: string): HeatmapLayerSpecification {
 		return {
@@ -53,6 +65,8 @@ export class LayerService {
 
 	/**
 	 * Create a circle layer configuration
+	 *
+	 * @param sourceId - The ID of the data source for the layer
 	 */
 	static createCircleLayerConfig(sourceId: string): CircleLayerSpecification {
 		return {
@@ -116,6 +130,8 @@ export class LayerService {
 
 	/**
 	 * Create a popup with feature information
+	 *
+	 * @param feature - The GeoJSON feature to extract information from
 	 */
 	static createPopup(feature: any): string {
 		const props = feature.properties;

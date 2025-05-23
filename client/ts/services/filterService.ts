@@ -9,6 +9,13 @@ export interface FilterOptions {
 	weather: string;
 }
 
+/**
+ * Service class for handling filters on GeoJSON data.
+ *
+ * This class manages the state of filters, applies them to the data,
+ * and notifies the application of changes.
+ * It also handles the visibility of filter controls on mobile devices.
+ */
 export class FilterService {
 	private filters: FilterOptions = {
 		intensity: "all",
@@ -31,6 +38,8 @@ export class FilterService {
 
 	/**
 	 * Set the source data for filtering
+	 *
+	 * @param data - The GeoJSON data to be filtered
 	 */
 	public setSourceData(data: GeoJSONData): void {
 		this.sourceData = data;
@@ -188,6 +197,8 @@ export class FilterService {
 
 	/**
 	 * Update the filter summary for accessibility and notifications
+	 *
+	 * @param count - The number of features after filtering
 	 */
 	private updateFilterSummary(count: number): void {
 		// Create a summary of active filters for accessibility

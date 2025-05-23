@@ -7,6 +7,14 @@ import { LocalStorageCache, CacheOptions } from "../utils/cache";
 // 1 hour stale time
 const DEFAULT_STALE_TIME = 60 * 60 * 1000;
 
+/**
+ * DataService class to handle data fetching and caching
+ *
+ * @class DataService
+ * @description This class is responsible for fetching data from a given URL, processing it, and caching it for later use.
+ * It handles both JSON and CSV formats, converting them to GeoJSON FeatureCollection format.
+ * It also provides error handling and loading state management.
+ */
 export class DataService {
 	/**
 	 * Fetches and processes data from the specified URL

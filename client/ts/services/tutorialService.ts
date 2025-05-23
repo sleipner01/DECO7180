@@ -5,6 +5,16 @@ export interface TutorialStep {
 	position: "top" | "bottom" | "left" | "right" | "center";
 }
 
+/**
+ * Service class for handling the tutorial steps
+ * and user interactions.
+ *
+ * This class manages the display of tutorial steps,
+ * including highlighting elements, showing tooltips,
+ * and handling user navigation through the tutorial.
+ * It also manages the visibility of the filter panel
+ * on mobile devices.
+ */
 export class TutorialService {
 	private steps: TutorialStep[];
 	private currentStep: number = 0;
@@ -160,6 +170,8 @@ export class TutorialService {
 
 	/**
 	 * Show a specific tutorial step
+	 *
+	 * @param index Index of the step to show
 	 */
 	private showStep(index: number): void {
 		if (!this.isActive || !this.tooltip || index >= this.steps.length) return;
@@ -243,6 +255,7 @@ export class TutorialService {
 
 	/**
 	 * Highlight an element during the tutorial
+	 *
 	 * @param element Element to highlight
 	 */
 	private highlightElement(element: Element): void {
@@ -392,6 +405,8 @@ export class TutorialService {
 
 	/**
 	 * Handle keyboard events
+	 *
+	 * @param e Keyboard event
 	 */
 	private handleKeydown = (e: KeyboardEvent): void => {
 		if (!this.isActive) return;

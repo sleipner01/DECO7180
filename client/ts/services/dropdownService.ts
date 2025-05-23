@@ -1,8 +1,20 @@
 import { GeoJSONData } from "../types";
 
+/**
+ * Service class for handling dropdown population from GeoJSON data.
+ *
+ * Provides utility methods to extract unique property values from GeoJSON features
+ * and populate HTML dropdown elements with these values.
+ */
 export class DropdownService {
 	/**
-	 * Extract unique values from feature properties and populate a dropdown
+	 * Extracts unique values from a specified property of GeoJSON features and populates
+	 * an HTML dropdown element with these values.
+	 *
+	 * @param data - The GeoJSON data containing features to extract values from.
+	 * @param propertyName - The property name within each feature's properties to extract unique values.
+	 * @param dropdownId - The ID of the HTML dropdown element to populate.
+	 * @returns A set of unique string values extracted from the specified property.
 	 */
 	static populateDropdown(
 		data: GeoJSONData,

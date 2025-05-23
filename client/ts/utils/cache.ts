@@ -8,9 +8,18 @@ export interface CacheData<T> {
 	timestamp: number;
 }
 
+/**
+ * LocalStorageCache class for caching data in localStorage
+ * with a specified stale time.
+ * The cache is identified by a unique key.
+ * The data is stored with a timestamp to determine its freshness.
+ */
 export class LocalStorageCache {
 	/**
 	 * Get data from cache if it exists and is not stale
+	 *
+	 * @param options - CacheOptions containing the key and stale time
+	 * @returns Cached data or null if not found or stale
 	 */
 	static get<T>(options: CacheOptions): T | null {
 		try {
@@ -39,6 +48,9 @@ export class LocalStorageCache {
 
 	/**
 	 * Store data in cache
+	 *
+	 * @param options - CacheOptions containing the key and stale time
+	 * @param data - Data to be cached
 	 */
 	static set<T>(options: CacheOptions, data: T): void {
 		try {

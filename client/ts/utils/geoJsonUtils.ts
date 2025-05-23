@@ -5,9 +5,18 @@ import {
 } from "../types";
 import Papa from "papaparse";
 
+/**
+ * Utility class for handling GeoJSON data
+ */
 export class GeoJsonUtils {
 	/**
 	 * Clean GeoJSON data by removing invalid features
+	 *
+	 * This function filters out features that do not have valid coordinates or properties.
+	 * It checks for the presence of geometry and ensures that coordinates are valid.
+	 *
+	 * @param data - The GeoJSON data to be cleaned
+	 * @return A new GeoJSON FeatureCollection with valid features
 	 */
 	static cleanData(data: GeoJSONData): GeoJSONData {
 		// Filter out features with missing coordinates or properties
@@ -35,6 +44,9 @@ export class GeoJsonUtils {
 
 	/**
 	 * Parse CSV data to GeoJSON format
+	 *
+	 * This function expects the CSV data to have headers: latitude, longitude, and intensity.
+	 * It converts the CSV data into a GeoJSON FeatureCollection.
 	 */
 	static parseCSVToGeoJSON(csvData: string): GeoJSONFeatureCollection {
 		const results = Papa.parse<CSVHeatmapDataPoint>(csvData, {

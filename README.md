@@ -2,10 +2,7 @@
 
 This is a project in the course DECO7180 at the University of Queensland. The project is a heatmap that visualises traffic infringements in Australia.
 
-The project is run at [deco7180teams-vikings.uqcloud.net](https://deco7180teams-vikings.uqcloud.net)
-
-![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWhzamVweWlhN25vYXIxemsyMjY2YzZsaXd1YXZmMGRleGFlamNrZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5nsiFjdgylfK3csZ5T/giphy.gif)
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeml4a3o4NnNodjJzZTl5ODBlcG1zNzM4ZDhjZXJuZHJ1cm51NnJ5bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NBfbMVZnUqN2ZtSQUN/giphy.gif)
+The project is hosted at [deco7180teams-vikings.uqcloud.net](https://deco7180teams-vikings.uqcloud.net)
 
 # 🧑‍🧑‍🧒‍🧒 Contributors
 
@@ -171,25 +168,6 @@ After making changes and building the project:
 | PapaParse      | CSV parsing library for handling data files                                                     |
 | dotenv-webpack | Plugin to use environment variables in the web application                                      |
 
-# 🧪 Data Processing
-
-The project includes a dedicated data processing toolkit called `data-alchemy` that transforms raw traffic infringement data into formats suitable for the heatmap visualization:
-
-- Located in the `data-alchemy` directory
-- Uses Python, Pandas, and Jupyter notebooks for data processing
-- Geocodes locations, normalizes intensities, and formats data for the heatmap
-- Automatically copies processed files to the client/data directory
-
-To use the data processing toolkit:
-
-1. Set up the Python environment:
-   ```bash
-   cd DataAlchemy
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
 # 🌳 Project Structure
 
 ```
@@ -208,6 +186,7 @@ To use the data processing toolkit:
 ├── client/                      # Client-side code (deployed to server)
 │   ├── index.html               # Main HTML page
 │   ├── css/                     # CSS stylesheets
+│   │   ├── tutorial.css         # Tutorial styles
 │   │   └── styles.css           # Main stylesheet
 │   ├── data/                    # Data files
 │   │   ├── data.csv             # CSV data for heatmap (if used)
@@ -227,6 +206,7 @@ To use the data processing toolkit:
 │       │   ├── mapService.ts    # Map initialization and management
 │       │   ├── filterService.ts # Filter management and application
 │       │   ├── layerService.ts  # Map layer configurations
+│       │   ├── tutorialService.ts # Tutorial and onboarding
 │       │   └── dropdownService.ts # Dynamic dropdown population
 │       └── utils/               # Utility modules
 │           ├── accessibility.ts # Accessibility helpers
@@ -247,7 +227,79 @@ To use the data processing toolkit:
     └── requirements.txt         # Python dependencies
 ```
 
-## Key Components 🗝️
+# 🧪 Data Processing
+
+The project includes a dedicated data processing toolkit called `data-alchemy` that transforms raw traffic infringement data into formats suitable for the heatmap visualization:
+
+- Located in the `data-alchemy` directory
+- Uses Python, Pandas, and Jupyter notebooks for data processing
+- Geocodes locations, normalizes intensities, and formats data for the heatmap
+- Automatically copies processed files to the client/data directory
+
+To use the data processing toolkit:
+
+1. Set up the Python environment:
+
+   ```bash
+   cd DataAlchemy
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+2. Add your raw data files:
+   - Place your traffic infringement CSV files in the `data-alchemy/data/` directory
+   - The default expected files are:
+     - `trafficinfringementsissued.csv` - Queensland traffic infringement data
+     - `Mobile_Speed_Camera_Visits_and_Stays.csv` - ACT speed camera data
+   - If using different filenames, you'll need to update the paths in the respective notebooks
+3. Running the processing pipeline:
+   - Open and run the Jupyter notebooks in this order:
+     - `notebooks/infringement_data_processing.ipynb` - Processes Queensland infringement data
+     - `notebooks/mobile_camera_data_processing.ipynb` - Processes ACT speed camera data
+     - `notebooks/combine.ipynb` - Combines all processed data and adds filtering fields
+   - You can run a notebook using Jupyter:
+     ```bash
+     jupyter notebook
+     ```
+     Or with any VSCode's Jupyter extension.
+4. The processing will:
+   - Clean and format the data
+   - Geocode locations (add latitude and longitude coordinates)
+   - Normalize intensity values
+   - Generate GeoJSON files for the heatmap
+   - Automatically copy the processed files to the `client/data` directory for the web application
+
+## Data Format Requirements 🧾
+
+For new datasets to work with the existing notebooks:
+
+### Traffic Infringement Data
+
+The CSV should include:
+
+- `Police District` or similar regional identifier
+- Traffic infringement counts or incidents
+
+### Mobile Speed Camera Data
+
+The CSV should include:
+
+- Street or location names
+- Visit counts or duration information
+- Speed camera activity metrics
+
+### Customizing Data Processing
+
+If your data doesn't match the expected format:
+
+1. Modify the respective notebook to handle your data structure
+2. Update the geocoding section to map your locations to coordinates
+3. Adjust the property standardization in the `combine.ipynb` notebook
+
+After processing, check the `client/data/` directory to ensure the updated files are ready for use in the heatmap visualization.
+
+# 🗝️ Key Components
 
 - **Entry Point**: [`client/ts/script.ts`](client/ts/script.ts) - Main application that initializes all components
 - **Map Handling**: [`client/ts/services/mapService.ts`](client/ts/services/mapService.ts) - Manages the MapBox integration
@@ -257,13 +309,53 @@ To use the data processing toolkit:
 - **Environment Config**: [`client/ts/env.ts`](client/ts/env.ts) - Makes environment variables available to the application
 - **Build System**: [`webpack.config.js`](webpack.config.js) - Configures how the TypeScript code is compiled
 
-## Build Process 🖨️
+# 🏛️ Architecture Overview
+
+The application follows a modular architecture:
+
+1. **Data Flow**:
+
+   - Raw CSV data → Data-Alchemy processing → GeoJSON/JSON output → Web client consumption
+   - Client-side filters transform the displayed data without server requests
+
+2. **Component Interaction**:
+
+   - `script.ts` initializes all services
+   - `mapService.ts` controls the MapBox instance
+   - `dataService.ts` fetches and provides data to other services
+   - `filterService.ts` listens for UI events and filters data
+   - `layerService.ts` defines how data is visualized on the map
+   - `tutorialService.ts` manages the onboarding experience
+
+3. **Event Flow**:
+   - User interactions → UI events → Service method calls → Map/Data updates
+
+# 🖨️ Build Process
 
 1. TypeScript files in `client/ts/` are processed through TypeScript compiler
 2. Webpack bundles the compiled JavaScript and dependencies
 3. The resulting bundle is output to `client/js/script.js`
 4. Environment variables from `.env.development` or `.env.production` are injected during build
 
-## Deployment Structure 🪜
+# 🪜 Deployment Structure
 
 When deployed, only the `client` directory contents are uploaded to the server at `/var/www/htdocs/`.
+
+# 🔧 Troubleshooting
+
+## Common Issues
+
+1. **MapBox Token Errors**
+
+   - Symptom: Map fails to load with authentication errors
+   - Solution: Check that your MapBox token is valid and properly set in the .env files
+
+2. **Data Processing Failures**
+
+   - Symptom: Notebooks fail to generate output files
+   - Solution: Ensure Python environment is properly set up and all dependencies are installed
+   - Note: The GeoPandas package sometimes has installation issues on Windows; see their documentation for platform-specific instructions
+
+3. **SFTP Upload Failures**
+   - Symptom: "Connection refused" or authentication errors
+   - Solution: Verify UQ credentials are correct and VPN is connected if accessing off-campus

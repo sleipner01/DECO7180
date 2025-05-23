@@ -2,7 +2,6 @@
  * Environment variables configuration with validation
  */
 
-// Define the structure of our environment variables
 interface EnvironmentVariables {
 	MAPBOX_TOKEN: string;
 	DEBUG: boolean;
